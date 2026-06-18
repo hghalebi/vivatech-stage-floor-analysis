@@ -1,0 +1,17 @@
+dataset,field,missing_count,missing_pct
+companies,name,0,0.0
+companies,type,0,0.0
+companies,country,3,0.1
+companies,hall,636,20.2
+companies,stand,159,5.0
+companies,presence,2,0.1
+companies,sectors,13,0.4
+companies,tags,15,0.5
+companies,fundraising,1349,42.8
+companies,short_desc,3153,100.0
+companies,image_url,0,0.0
+speakers,full_name,0,0.0
+speakers,company,3,0.3
+speakers,job_title,11,1.0
+speakers,tags,329,29.0
+speakers,image_url,3,0.3

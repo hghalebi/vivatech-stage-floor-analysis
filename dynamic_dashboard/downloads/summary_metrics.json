@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-06-17T20:54:32+00:00",
+  "source": "Live scrape of https://vivatech.com/speakers and https://vivatech.com/exhibitors using browser-like request headers; local CSVs in Documents were present but unreadable due macOS Operation not permitted.",
+  "companies": 3153,
+  "company_total_items_reported": 3153,
+  "company_total_pages_reported": 158,
+  "speakers": 1133,
+  "speaker_total_items_reported": 1133,
+  "matched_speakers": 355,
+  "matched_speaker_pct": 31.3,
+  "companies_with_speakers": 191,
+  "companies_with_speakers_pct": 6.1,
+  "startup_count": 2719,
+  "startup_pct": 86.2,
+  "partner_count": 434,
+  "ai_company_count": 1513,
+  "ai_company_pct": 48.0,
+  "ai_speaker_count": 528,
+  "ai_speaker_pct": 46.6,
+  "top_5_country_share_pct": 67.2,
+  "top_10_speaker_company_share_pct": 6.5,
+  "country_hhi": 0.2634,
+  "speaker_company_hhi": 0.0017,
+  "quality_summary": {
+    "company_duplicate_ids": 0,
+    "speaker_duplicate_ids": 0,
+    "company_duplicate_normalized_names": 159
+  }
+}

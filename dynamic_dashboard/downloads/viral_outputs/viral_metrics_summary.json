@@ -1,0 +1,28 @@
+{
+  "companies": 3153,
+  "speakers": 1133,
+  "matched_speakers": 355,
+  "companies_with_speakers": 191,
+  "companies_with_speakers_pct": 6.057722803679036,
+  "partner_mic_multiplier": 21.192638106616602,
+  "partner_coverage_multiplier": 10.82946017116524,
+  "ai_company_pct": 47.9860450364732,
+  "ai_speaker_pct": 46.601941747572816,
+  "usa_vs_india_density_multiplier": 27.411764705882355,
+  "usa_vs_canada_density_multiplier": 58.25,
+  "korea_combined_companies": 153,
+  "korea_combined_matched_speakers": 2,
+  "korea_combined_density": 1.3071895424836601,
+  "boss_share_pct": 58.42894969108562,
+  "government_top_speaker_multiplier": 5.616787234042554,
+  "top10_org_speaker_share_pct": 6.531332744924978,
+  "chart_files": [
+    "01_partner_agenda_capture.svg",
+    "02_country_mic_leverage.svg",
+    "03_tag_silence.svg",
+    "04_speaker_org_power.svg",
+    "05_funding_mic_odds.svg",
+    "06_boss_stage.svg",
+    "07_ai_cotags.svg"
+  ]
+}

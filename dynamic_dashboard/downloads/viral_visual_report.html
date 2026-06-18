@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VivaTech Viral Pattern Report</title>
+  <style>
+    :root {
+      --ink: #181614;
+      --muted: #5f5750;
+      --paper: #fbfaf7;
+      --line: #ded8cf;
+      --blue: #2454a6;
+      --red: #c94343;
+      --green: #18805b;
+    }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 42px 24px 64px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      font-size: clamp(2.3rem, 5vw, 5.2rem);
+      line-height: 0.96;
+      letter-spacing: 0;
+      margin: 0 0 18px;
+      max-width: 980px;
+    }
+    .dek {
+      font-size: 1.15rem;
+      max-width: 860px;
+      color: var(--muted);
+      margin: 0;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+      margin: 28px 0;
+    }
+    .metric {
+      background: var(--paper);
+      padding: 18px;
+      min-height: 92px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 2rem;
+      line-height: 1;
+    }
+    .metric span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .claim {
+      display: grid;
+      grid-template-columns: minmax(280px, 0.42fr) minmax(0, 0.58fr);
+      gap: 28px;
+      padding: 28px 0;
+      border-top: 1px solid var(--line);
+      align-items: start;
+    }
+    .claim h2 {
+      font-size: clamp(1.65rem, 3vw, 3.4rem);
+      line-height: 1.02;
+      letter-spacing: 0;
+      margin: 0 0 14px;
+    }
+    .claim p {
+      color: var(--muted);
+      font-size: 1rem;
+      margin: 0 0 12px;
+    }
+    .claim .evidence {
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .score {
+      color: var(--red) !important;
+      text-transform: uppercase;
+      font-size: 0.78rem !important;
+      letter-spacing: 0.08em;
+      font-weight: 800;
+    }
+    .caveat {
+      border-left: 4px solid var(--line);
+      padding-left: 12px;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--line);
+      background: var(--paper);
+    }
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      margin-top: 28px;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 860px) {
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .claim {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 520px) {
+      .metrics {
+        grid-template-columns: 1fr;
+      }
+      main {
+        padding: 28px 16px 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>VivaTech's floor is startup; its microphone is institutional.</h1>
+      <p class="dek">A deliberately sharper evidence pack from the VivaTech exhibitor and speaker data. The point is not outrage by vibes: every claim below has a numerator, denominator, caveat, and reusable chart.</p>
+    </header>
+    <section class="metrics" aria-label="Dataset metrics">
+      <div class="metric"><strong>3,153</strong><span>exhibitor companies</span></div>
+      <div class="metric"><strong>1,133</strong><span>speaker records</span></div>
+      <div class="metric"><strong>355</strong><span>speakers matched to exhibitors</span></div>
+      <div class="metric"><strong>6.1%</strong><span>exhibitors with a matched speaker</span></div>
+    </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 5/5 · defensibility 5/5</p>
+                <h2>Partners are 21.2x louder per company than startups.</h2>
+                <p class="evidence">Partners are 13.8% of exhibitors but 77.2% of matched speaker slots; startup exhibitors are 86.2% of the floor but 22.8% of matched speaker slots.</p>
+                <p>It turns a generic startup-event narrative into a power-distribution claim: the floor sells startup energy, while the microphone rewards institutions.</p>
+                <p class="caveat"><strong>Caveat:</strong> Only speakers whose organizations conservatively match exhibitors are included; unmatched speakers may change some shares but not the exhibitor-side imbalance.</p>
+              </div>
+              <img src="viral_outputs/01_partner_agenda_capture.svg" alt="partner_agenda_capture chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 5/5 · defensibility 5/5</p>
+                <h2>93.9% of exhibitors appear voiceless in the speaker program.</h2>
+                <p class="evidence">Only 191 of 3153 exhibitors have at least one matched speaker; for startups the no-matched-speaker rate is 97.4%.</p>
+                <p>It gives founders a blunt way to talk about the difference between buying/earning a booth and owning agenda visibility.</p>
+                <p class="caveat"><strong>Caveat:</strong> This is based on public listing data and conservative organization matching, not internal stage selection data.</p>
+              </div>
+              <img src="viral_outputs/01_partner_agenda_capture.svg" alt="voiceless_floor chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 5/5 · defensibility 4/5</p>
+                <h2>The US has fewer booths than India, but roughly 27x the matched-speaker density.</h2>
+                <p class="evidence">US: 73 exhibitors and 68 matched speakers (93.2 per 100 companies). India: 88 exhibitors and 3 matched speakers (3.4 per 100).</p>
+                <p>It reframes country presence from booth count to agenda leverage, which is much more politically sensitive.</p>
+                <p class="caveat"><strong>Caveat:</strong> Country values come from exhibitor records after matching; country normalization and unmatched speaker organizations can move this metric.</p>
+              </div>
+              <img src="viral_outputs/02_country_mic_leverage.svg" alt="country_agenda_leverage chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 4/5 · defensibility 5/5</p>
+                <h2>Retail has 337 exhibitors but only 6 speakers: a booth-heavy topic with almost no mic.</h2>
+                <p class="evidence">Retail &amp; E-commerce is 10.7% of exhibitor tags but 0.5% of speaker tags, a -10.2 percentage point speaker under-index.</p>
+                <p>It challenges the commercial reality of tech events: some market categories pay/show up, but do not get to define the public agenda.</p>
+                <p class="caveat"><strong>Caveat:</strong> Tag fields are multi-select listing tags, so counts represent tagged records rather than exclusive categories.</p>
+              </div>
+              <img src="viral_outputs/03_tag_silence.svg" alt="retail_silence chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 4/5 · defensibility 5/5</p>
+                <h2>AI is so saturated that it has stopped being the interesting label.</h2>
+                <p class="evidence">1513 of 3153 exhibitors (48.0%) and 528 of 1133 speakers (46.6%) carry the AI/Robotics tag.</p>
+                <p>It punctures the easy AI hype angle: the more interesting story is which categories AI attaches to and which still get ignored.</p>
+                <p class="caveat"><strong>Caveat:</strong> This is tag-level saturation, not a measure of product depth, revenue, or actual AI capability.</p>
+              </div>
+              <img src="viral_outputs/07_ai_cotags.svg" alt="ai_saturation chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 4/5 · defensibility 4/5</p>
+                <h2>Korea has 153 exhibitor records after normalizing the split label, but only 2 matched speakers.</h2>
+                <p class="evidence">`South Korea` has 96 exhibitors and `korearepublicof` has 57. Combined density is 1.3 matched speakers per 100 companies, versus 93.2 for the US.</p>
+                <p>It is both a data-quality gotcha and a market-visibility claim: a large booth presence can still be nearly silent on the matched stage layer.</p>
+                <p class="caveat"><strong>Caveat:</strong> The raw country split must be normalized before any official country ranking; unmatched Korean speaker organizations may be missing from the conservative match.</p>
+              </div>
+              <img src="viral_outputs/02_country_mic_leverage.svg" alt="korea_silent_supply chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 4/5 · defensibility 4/5</p>
+                <h2>Among explicit funding labels, Series C startups have about 8x the mic density of bootstrapped companies.</h2>
+                <p class="evidence">Series C: 16.7 matched speakers per 100 companies. Bootstrapped: 2.1 per 100. Pre-seed: 2.3 per 100.</p>
+                <p>It makes the prestige gradient visible: the event may celebrate early startups, but later-stage companies are much more stage-visible.</p>
+                <p class="caveat"><strong>Caveat:</strong> Series C has only 24 companies, and partner records often have unspecified fundraising; use this as a directional signal, not a causal claim.</p>
+              </div>
+              <img src="viral_outputs/05_funding_mic_odds.svg" alt="funding_mic_odds chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 4/5 · defensibility 4/5</p>
+                <h2>The speaker program is a boss layer: 58.4% are CEOs/founders/C-suite.</h2>
+                <p class="evidence">CEO/president/GM, founder/co-founder, and other C-suite buckets total 662 of 1133 speakers. Government/public-sector speakers are only 2.6% of speakers but are top-billed at 23.3% inside their bucket, 5.6x the overall top-speaker rate.</p>
+                <p>It names the social structure of the stage: not a broad worker/practitioner program, but a leadership and legitimacy program.</p>
+                <p class="caveat"><strong>Caveat:</strong> Role buckets are keyword-derived from public job titles and should be reviewed manually before publication.</p>
+              </div>
+              <img src="viral_outputs/06_boss_stage.svg" alt="boss_stage chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 3/5 · defensibility 5/5</p>
+                <h2>The public exhibitor list is a taxonomy machine, not a discovery engine.</h2>
+                <p class="evidence">3153 exhibitor short descriptions are empty (100.0%), and 1349 fundraising fields are missing (42.8%).</p>
+                <p>It shifts criticism from individual exhibitors to platform design: the listing is better for sorting than understanding.</p>
+                <p class="caveat"><strong>Caveat:</strong> Detail pages may contain richer text; this claim is scoped to the listing payload used for bulk discovery.</p>
+              </div>
+              <img src="viral_outputs/07_ai_cotags.svg" alt="directory_opacity chart" />
+            </section>
+
+            <section class="claim">
+              <div class="claim-copy">
+                <p class="score">controversy 3/5 · defensibility 4/5</p>
+                <h2>A few organizations can bend the agenda more than thousands of booths can.</h2>
+                <p class="evidence">The top 10 speaker organizations account for 74 speaker records (6.5% of all speakers), led by L&#x27;Oreal and PwC.</p>
+                <p>It makes agenda-setting visible without needing private sponsorship data.</p>
+                <p class="caveat"><strong>Caveat:</strong> The top-organization table uses displayed speaker organization names; some subsidiaries and country suffixes may split or merge imperfectly.</p>
+              </div>
+              <img src="viral_outputs/04_speaker_org_power.svg" alt="speaker_org_concentration chart" />
+            </section>
+
+    <footer>
+      Source: live VivaTech listing scrape, generated 2026-06-17. Local Documents CSVs were blocked by macOS permissions, so this report uses the freshly validated live scrape. Matching is conservative and likely undercounts true organization links.
+    </footer>
+  </main>
+</body>
+</html>

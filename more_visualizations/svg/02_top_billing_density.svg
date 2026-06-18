@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="254" viewBox="0 0 1180 254" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">Top billing density per 100 exhibitors</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">Partner top-billing density dwarfs startup top-billing density.</text>
+<text x="40" y="145" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">partner</text>
+<rect x="360" y="128" width="685.2" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="1053.2" y="145" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">4.4</text>
+<text x="40" y="187" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">startup</text>
+<rect x="360" y="170" width="5.8" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="373.8" y="187" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.0</text>
+</svg>

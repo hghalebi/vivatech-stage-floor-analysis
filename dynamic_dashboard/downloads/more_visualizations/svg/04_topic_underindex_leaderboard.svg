@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="674" viewBox="0 0 1180 674" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">Topics most under-amplified on stage</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">Negative value means speaker share is lower than exhibitor share.</text>
+<text x="40" y="145" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Growth &amp; Startup &amp; Investment</text>
+<rect x="360" y="128" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="145" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-12.2 pp</text>
+<text x="40" y="187" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Industry &amp; Supply Chain</text>
+<rect x="360" y="170" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="187" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-12.1 pp</text>
+<text x="40" y="229" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Energy &amp; Greentech</text>
+<rect x="360" y="212" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="229" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-10.2 pp</text>
+<text x="40" y="271" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Retail &amp; E-commerce</text>
+<rect x="360" y="254" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="271" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-10.2 pp</text>
+<text x="40" y="313" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Consulting &amp; B2B services</text>
+<rect x="360" y="296" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="313" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-8.6 pp</text>
+<text x="40" y="355" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">DeepTech</text>
+<rect x="360" y="338" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="355" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-8.0 pp</text>
+<text x="40" y="397" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Mobility &amp; Smart Cities</text>
+<rect x="360" y="380" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="397" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-7.6 pp</text>
+<text x="40" y="439" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Healthcare &amp; Wellness</text>
+<rect x="360" y="422" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="439" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-6.1 pp</text>
+<text x="40" y="481" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Fintech &amp; Banking &amp; Compliance</text>
+<rect x="360" y="464" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="481" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-5.7 pp</text>
+<text x="40" y="523" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Luxury &amp; Fashion &amp; Cosmetics</text>
+<rect x="360" y="506" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="523" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-4.1 pp</text>
+<text x="40" y="565" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Food &amp; Agriculture</text>
+<rect x="360" y="548" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="565" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-2.7 pp</text>
+<text x="40" y="607" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">HR &amp; EdTech &amp; Future of Work</text>
+<rect x="360" y="590" width="1.0" height="22" rx="3" fill="#c94343" opacity="0.9"/>
+<text x="369.0" y="607" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">-2.5 pp</text>
+</svg>

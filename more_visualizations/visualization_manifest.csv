@@ -1,0 +1,13 @@
+file,title
+01_stage_floor_funnel.svg,Stage-floor funnel by company type
+02_top_billing_density.svg,Top billing density
+03_tag_stage_floor_scatter.svg,Tag stage-floor scatter
+04_topic_underindex_leaderboard.svg,Topic under-index leaderboard
+05_country_mic_leverage_ranked.svg,Country microphone leverage
+06_funding_maturity_ladder.svg,Funding maturity ladder
+07_role_share_vs_top_rate.svg,Role share vs top billing
+08_missingness_dashboard.svg,Missingness dashboard
+09_attention_lorenz_curve.svg,Attention inequality curve
+10_tech_for_change_attention_gap.svg,Tech for Change attention gap
+11_tag_pair_heatmap.svg,Tag pair heatmap
+12_top_speaker_taglessness.svg,Top speaker taglessness

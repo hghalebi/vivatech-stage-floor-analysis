@@ -1,0 +1,9 @@
+fundraising_stage,companies,company_share_pct,matched_speakers,speaker_per_100_companies
+Unspecified,1349,42.8,306,22.7
+Pre-Seed - <$1M,469,14.9,11,2.3
+Not yet - 0,468,14.8,10,2.1
+Seed - $1M - $5M,393,12.5,12,3.1
+Bootstrapped - 0,387,12.3,8,2.1
+Series A - $5M - $15M,140,4.4,6,4.3
+Series B - $15M - $50M,36,1.1,3,8.3
+Series C - $50M - $200M,24,0.8,4,16.7

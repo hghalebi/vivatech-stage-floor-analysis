@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="506" viewBox="0 0 1180 506" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">Funding maturity ladder</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">Matched speakers per 100 companies by funding label.</text>
+<text x="40" y="145" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Bootstrapped - 0</text>
+<rect x="360" y="128" width="63.4" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="431.4" y="145" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.1</text>
+<text x="40" y="187" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Not yet - 0</text>
+<rect x="360" y="170" width="63.4" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="431.4" y="187" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.1</text>
+<text x="40" y="229" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Pre-Seed - &lt;$1M</text>
+<rect x="360" y="212" width="69.4" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="437.4" y="229" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.3</text>
+<text x="40" y="271" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Seed - $1M - $5M</text>
+<rect x="360" y="254" width="93.6" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="461.6" y="271" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">3.1</text>
+<text x="40" y="313" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Series A - $5M - $15M</text>
+<rect x="360" y="296" width="129.8" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="497.8" y="313" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">4.3</text>
+<text x="40" y="355" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Series B - $15M - $50M</text>
+<rect x="360" y="338" width="250.5" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="618.5" y="355" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">8.3</text>
+<text x="40" y="397" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Series C - $50M - $200M</text>
+<rect x="360" y="380" width="504.1" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="872.1" y="397" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">16.7</text>
+<text x="40" y="439" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Unspecified</text>
+<rect x="360" y="422" width="685.2" height="22" rx="3" fill="#2454a6" opacity="0.9"/>
+<text x="1053.2" y="439" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">22.7</text>
+</svg>

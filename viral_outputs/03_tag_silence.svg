@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="630" viewBox="0 0 1180 630" role="img" aria-labelledby="title desc">
+<title>The booth-heavy topics with quieter stages</title>
+<desc>Speaker share minus exhibitor share, percentage points</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="48" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#1b1b1b">The booth-heavy topics with quieter stages</text>
+<text x="40" y="82" font-family="Inter, Arial, sans-serif" font-size="16" fill="#4f4a45">Speaker share minus exhibitor share, percentage points</text>
+<line x1="735.0" y1="106" x2="735.0" y2="588" stroke="#7c756d" stroke-width="1"/>
+<text x="743.0" y="100" font-family="Inter, Arial, sans-serif" font-size="12" fill="#625b54">speaker over-index</text>
+<text x="590.0" y="100" font-family="Inter, Arial, sans-serif" font-size="12" fill="#625b54">speaker under-index</text>
+<text x="40" y="146" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Growth &amp; Startup &amp; Investment</text>
+<rect x="394.1" y="130" width="340.9" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="344.1" y="147" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-12.2 pp</text>
+<text x="40" y="192" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Industry &amp; Supply Chain</text>
+<rect x="396.9" y="176" width="338.1" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="346.9" y="193" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-12.1 pp</text>
+<text x="40" y="238" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Energy &amp; Greentech</text>
+<rect x="450.0" y="222" width="285.0" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="400.0" y="239" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-10.2 pp</text>
+<text x="40" y="284" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Retail &amp; E-commerce</text>
+<rect x="450.0" y="268" width="285.0" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="400.0" y="285" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-10.2 pp</text>
+<text x="40" y="330" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Consulting &amp; B2B services</text>
+<rect x="494.7" y="314" width="240.3" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="444.7" y="331" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-8.6 pp</text>
+<text x="40" y="376" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">DeepTech</text>
+<rect x="511.5" y="360" width="223.5" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="461.5" y="377" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-8.0 pp</text>
+<text x="40" y="422" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Mobility &amp; Smart Cities</text>
+<rect x="522.6" y="406" width="212.4" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="472.6" y="423" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-7.6 pp</text>
+<text x="40" y="468" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Healthcare &amp; Wellness</text>
+<rect x="564.5" y="452" width="170.5" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="514.5" y="469" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-6.1 pp</text>
+<text x="40" y="514" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Fintech &amp; Banking &amp; Compliance</text>
+<rect x="575.7" y="498" width="159.3" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="525.7" y="515" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-5.7 pp</text>
+<text x="40" y="560" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">Luxury &amp; Fashion &amp; Cosmetics</text>
+<rect x="620.4" y="544" width="114.6" height="22" rx="3" fill="#C94343" opacity="0.88"/>
+<text x="570.4" y="561" font-family="Inter, Arial, sans-serif" font-size="13" fill="#26221f">-4.1 pp</text>
+</svg>

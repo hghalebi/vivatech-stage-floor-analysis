@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">Role mix vs top-billing rate</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">Government is small by count but high in top-billing share.</text>
+<rect x="40" y="98" width="14" height="10" fill="#c94343"/><text x="62" y="108" font-family="Inter, Arial, sans-serif" font-size="13" fill="#5f5750">speaker share %</text>
+<rect x="250" y="98" width="14" height="10" fill="#2454a6"/><text x="272" y="108" font-family="Inter, Arial, sans-serif" font-size="13" fill="#5f5750">top share in bucket %</text>
+<text x="40" y="158" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">CEO / president / GM</text>
+<rect x="360" y="136" width="649.0" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="158" width="201.4" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="1017.0" y="171" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">23.2 / 7.2</text>
+<text x="40" y="216" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Other leadership / specialist</text>
+<rect x="360" y="194" width="531.5" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="216" width="25.2" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="899.5" y="229" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">19.0 / 0.9</text>
+<text x="40" y="274" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Founder / co-founder</text>
+<rect x="360" y="252" width="497.9" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="274" width="165.0" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="865.9" y="287" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">17.8 / 5.9</text>
+<text x="40" y="332" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Other C-suite</text>
+<rect x="360" y="310" width="486.7" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="332" width="83.9" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="854.7" y="345" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">17.4 / 3.0</text>
+<text x="40" y="390" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Investor / VC</text>
+<rect x="360" y="368" width="223.8" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="390" width="1.0" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="591.8" y="403" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">8.0 / 0.0</text>
+<text x="40" y="448" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Product / tech / innovation</text>
+<rect x="360" y="426" width="187.4" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="448" width="36.4" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="555.4" y="461" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">6.7 / 1.3</text>
+<text x="40" y="506" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Media / journalist</text>
+<rect x="360" y="484" width="89.5" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="506" width="1.0" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="457.5" y="519" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">3.2 / 0.0</text>
+<text x="40" y="564" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Government / public sector</text>
+<rect x="360" y="542" width="72.7" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="564" width="651.8" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="1019.8" y="577" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.6 / 23.3</text>
+<text x="40" y="622" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Academic / research</text>
+<rect x="360" y="600" width="55.9" height="16" rx="2" fill="#c94343" opacity="0.82"/>
+<rect x="360" y="622" width="1.0" height="16" rx="2" fill="#2454a6" opacity="0.88"/>
+<text x="423.9" y="635" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.0 / 0.0</text>
+</svg>

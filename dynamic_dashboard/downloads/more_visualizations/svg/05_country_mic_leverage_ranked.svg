@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="842" viewBox="0 0 1180 842" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">Matched-speaker density by country</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">Countries with at least 20 exhibitors, ranked by matched speakers per 100 exhibitors.</text>
+<text x="40" y="145" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">United States of America</text>
+<rect x="360" y="128" width="685.2" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="1053.2" y="145" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">93.2</text>
+<text x="40" y="187" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">United Kingdom</text>
+<rect x="360" y="170" width="445.5" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="813.5" y="187" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">60.6</text>
+<text x="40" y="229" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">China</text>
+<rect x="360" y="212" width="262.5" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="630.5" y="229" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">35.7</text>
+<text x="40" y="271" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Sweden</text>
+<rect x="360" y="254" width="166.9" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="534.9" y="271" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">22.7</text>
+<text x="40" y="313" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Hong Kong</text>
+<rect x="360" y="296" width="152.2" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="520.2" y="313" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">20.7</text>
+<text x="40" y="355" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Netherlands</text>
+<rect x="360" y="338" width="91.9" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="459.9" y="355" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">12.5</text>
+<text x="40" y="397" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">France</text>
+<rect x="360" y="380" width="83.8" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="451.8" y="397" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">11.4</text>
+<text x="40" y="439" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Germany</text>
+<rect x="360" y="422" width="82.3" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="450.3" y="439" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">11.2</text>
+<text x="40" y="481" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Japan</text>
+<rect x="360" y="464" width="42.6" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="410.6" y="481" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">5.8</text>
+<text x="40" y="523" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Spain</text>
+<rect x="360" y="506" width="27.2" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="395.2" y="523" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">3.7</text>
+<text x="40" y="565" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">India</text>
+<rect x="360" y="548" width="25.0" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="393.0" y="565" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">3.4</text>
+<text x="40" y="607" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Portugal</text>
+<rect x="360" y="590" width="22.8" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="390.8" y="607" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">3.1</text>
+<text x="40" y="649" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Belgium</text>
+<rect x="360" y="632" width="21.3" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="389.3" y="649" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.9</text>
+<text x="40" y="691" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Taiwan</text>
+<rect x="360" y="674" width="21.3" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="389.3" y="691" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.9</text>
+<text x="40" y="733" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">Italy</text>
+<rect x="360" y="716" width="20.6" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="388.6" y="733" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.8</text>
+<text x="40" y="775" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">South Korea</text>
+<rect x="360" y="758" width="15.4" height="22" rx="3" fill="#18805b" opacity="0.9"/>
+<text x="383.4" y="775" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">2.1</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="674" viewBox="0 0 1180 674" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">What the public listing hides</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">Missing field rates in the company and speaker listing payloads.</text>
+<text x="40" y="145" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.short_desc</text>
+<rect x="360" y="128" width="685.2" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="1053.2" y="145" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">100.0%</text>
+<text x="40" y="187" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.fundraising</text>
+<rect x="360" y="170" width="293.3" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="661.3" y="187" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">42.8%</text>
+<text x="40" y="229" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">speakers.tags</text>
+<rect x="360" y="212" width="198.7" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="566.7" y="229" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">29.0%</text>
+<text x="40" y="271" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.hall</text>
+<rect x="360" y="254" width="138.4" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="506.4" y="271" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">20.2%</text>
+<text x="40" y="313" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.stand</text>
+<rect x="360" y="296" width="34.3" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="402.3" y="313" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">5.0%</text>
+<text x="40" y="355" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">speakers.job_title</text>
+<rect x="360" y="338" width="6.9" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="374.9" y="355" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">1.0%</text>
+<text x="40" y="397" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.tags</text>
+<rect x="360" y="380" width="3.4" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="371.4" y="397" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.5%</text>
+<text x="40" y="439" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.sectors</text>
+<rect x="360" y="422" width="2.7" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="370.7" y="439" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.4%</text>
+<text x="40" y="481" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">speakers.company</text>
+<rect x="360" y="464" width="2.1" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="370.1" y="481" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.3%</text>
+<text x="40" y="523" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">speakers.image_url</text>
+<rect x="360" y="506" width="2.1" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="370.1" y="523" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.3%</text>
+<text x="40" y="565" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.country</text>
+<rect x="360" y="548" width="1.0" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="369.0" y="565" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.1%</text>
+<text x="40" y="607" font-family="Inter, Arial, sans-serif" font-size="14" fill="#171411">companies.presence</text>
+<rect x="360" y="590" width="1.0" height="22" rx="3" fill="#7f766e" opacity="0.9"/>
+<text x="369.0" y="607" font-family="Inter, Arial, sans-serif" font-size="13" fill="#171411">0.1%</text>
+</svg>

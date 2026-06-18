@@ -1,0 +1,192 @@
+company_name,speaker_count,type,country,hall,stand,tags,fundraising
+L'Oreal Groupe,15,partner,France,pavillon7,1D12,Artificial Intelligence & Robotics | DeepTech | Healthcare & Wellness | Luxury & Fashion & Cosmetics | Media & Entertainment & Creators Economy,
+PwC,13,partner,United Kingdom,pavillon7,2D36,Consulting & B2B services | Artificial Intelligence & Robotics | Cloud & Infrastructure & Connectivity | Cybersecurity & Defense | Diversity & Inclusion,
+Amazon Web Services (AWS),10,partner,United States of America,pavillon7,2F13,Gaming & Sports & Esports | Sovereignty & GovTech | Cloud & Infrastructure & Connectivity | Consulting & B2B services | Artificial Intelligence & Robotics,
+"Quantumblack, AI by Mckinsey",9,partner,United States of America,pavillon7,,Artificial Intelligence & Robotics | DeepTech | Diversity & Inclusion | HR & EdTech & Future of Work | Sovereignty & GovTech,
+Nvidia,7,partner,United States of America,pavillon7,,Artificial Intelligence & Robotics,
+Capgemini Technology Services,6,partner,France,pavillon7,3B36,Artificial Intelligence & Robotics | Sovereignty & GovTech | Cybersecurity & Defense | Retail & E-commerce | Space & Aeronautics,
+Essilorluxottica,6,partner,France,pavillon7,1D14,Artificial Intelligence & Robotics | Healthcare & Wellness | Industry & Supply Chain,
+OVHcloud,6,partner,France,pavillon7,3D05,Cloud & Infrastructure & Connectivity | Cybersecurity & Defense | Growth & Startup & Investment | Sovereignty & GovTech | Artificial Intelligence & Robotics,
+Roland Berger,6,partner,Germany,pavillon7,,Consulting & B2B services | Sovereignty & GovTech,
+Adobe,5,partner,United States of America,pavillon7,2F10,Marketing & Advertising | Artificial Intelligence & Robotics | Luxury & Fashion & Cosmetics | Retail & E-commerce | Fintech & Banking & Compliance,
+Bpifrance,5,partner,France,pavillon7,2F68,Growth & Startup & Investment | Fintech & Banking & Compliance,
+Engie,5,partner,France,pavillon7,2F15,Energy & Greentech | Sovereignty & GovTech | Industry & Supply Chain | Mobility & Smart Cities | Growth & Startup & Investment,
+IBM,5,partner,United States of America,pavillon7,2D67,Artificial Intelligence & Robotics | Sovereignty & GovTech | Consulting & B2B services | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+Airbus,4,partner,France,pavillon7,3B28,Artificial Intelligence & Robotics | Sovereignty & GovTech | Space & Aeronautics | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+BNP Paribas,4,partner,France,pavillon7,2D10,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | Sovereignty & GovTech | Growth & Startup & Investment | Cybersecurity & Defense,
+Bloomberg,4,partner,United States of America,pavillon7,3C48,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | Mobility & Smart Cities | Energy & Greentech,
+Meta,4,partner,United States of America,pavillon7,1F08,Artificial Intelligence & Robotics | Marketing & Advertising | Media & Entertainment & Creators Economy,
+Salesforce,4,partner,France,pavillon7,3D31,Artificial Intelligence & Robotics | Cloud & Infrastructure & Connectivity,
+Siemens,4,partner,Germany,pavillon7,3E12,Artificial Intelligence & Robotics | Mobility & Smart Cities | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+Agibot,3,partner,China,pavillon7,2G30,Artificial Intelligence & Robotics | Growth & Startup & Investment | Media & Entertainment & Creators Economy | Mobility & Smart Cities,
+Artmajeur,3,partner,France,pavillon7,1G09,Artificial Intelligence & Robotics | Luxury & Fashion & Cosmetics | Media & Entertainment & Creators Economy,
+Ecolab (French Ministry of Ecological Transition),3,partner,France,pavillon7,2D33-005,Artificial Intelligence & Robotics | Energy & Greentech | Mobility & Smart Cities | Sovereignty & GovTech,
+Google Cloud,3,partner,France,pavillon7,,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | Sovereignty & GovTech | Cybersecurity & Defense,
+INRIA,3,partner,France,pavillon7,2H62,Sovereignty & GovTech | DeepTech | Artificial Intelligence & Robotics | Cybersecurity & Defense,
+La Poste Groupe,3,partner,France,pavillon7,2F39,Artificial Intelligence & Robotics | HR & EdTech & Future of Work | Retail & E-commerce | Cloud & Infrastructure & Connectivity | Mobility & Smart Cities,
+ManpowerGroup,3,partner,United States of America,pavillon7,2G14,Diversity & Inclusion | HR & EdTech & Future of Work | Sovereignty & GovTech | Industry & Supply Chain | Cybersecurity & Defense,
+SAP,3,partner,Germany,pavillon7,2D60,Artificial Intelligence & Robotics | Sovereignty & GovTech | Growth & Startup & Investment | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+Sanofi,3,partner,France,pavillon7,1D01,Healthcare & Wellness | Industry & Supply Chain,
+Septeo,3,partner,France,pavillon7,1J02,Artificial Intelligence & Robotics | HR & EdTech & Future of Work | Sovereignty & GovTech | Cloud & Infrastructure & Connectivity,
+Sorbonne Université,3,partner,France,pavillon7,2B60,DeepTech | Healthcare & Wellness | Artificial Intelligence & Robotics | Space & Aeronautics,
+Artefact,2,partner,France,pavillon7,2H09,Artificial Intelligence & Robotics | Consulting & B2B services,
+AstraNICE,2,startup,France,,3H36-010,Artificial Intelligence & Robotics | Healthcare & Wellness | Luxury & Fashion & Cosmetics,Pre-Seed - <$1M
+Bain & Company,2,partner,United States of America,pavillon7,,Artificial Intelligence & Robotics | Consulting & B2B services,
+Batterizy,2,startup,France,,2B61-002,Energy & Greentech | Mobility & Smart Cities | Diversity & Inclusion,Not yet - 0
+Blackbox AI,2,partner,United States of America,pavillon7,3C46,Cloud & Infrastructure & Connectivity | Cybersecurity & Defense | Artificial Intelligence & Robotics | Fintech & Banking & Compliance,
+CNBC,2,partner,United Kingdom,pavillon7,3F31,Fintech & Banking & Compliance | Artificial Intelligence & Robotics | Energy & Greentech | Sovereignty & GovTech,
+Cgtn Europe,2,partner,China,,,Space & Aeronautics | Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics | Energy & Greentech,
+Crédit Agricole SA,2,partner,France,pavillon7,1F02,Fintech & Banking & Compliance | Diversity & Inclusion | Sovereignty & GovTech | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+Datasection Inc.,2,partner,Japan,pavillon7,,Artificial Intelligence & Robotics,
+Elevenlabs,2,startup,United Kingdom,pavillon7,3J45-001,Artificial Intelligence & Robotics | Consulting & B2B services | Fintech & Banking & Compliance,
+Emiotech,2,startup,France,,2H48-006,HR & EdTech & Future of Work | Industry & Supply Chain | Luxury & Fashion & Cosmetics,Not yet - 0
+Euronews,2,partner,France,,,Media & Entertainment & Creators Economy | Space & Aeronautics | Luxury & Fashion & Cosmetics | Cybersecurity & Defense,
+European Patent Office,2,partner,Germany,pavillon7,,DeepTech | Growth & Startup & Investment | Sovereignty & GovTech,
+Fraunhofer-Gesellschaft,2,partner,Germany,pavillon7,3E14,Artificial Intelligence & Robotics | DeepTech | Cybersecurity & Defense,
+GE Vernova,2,partner,United States of America,pavillon7,,Energy & Greentech | Artificial Intelligence & Robotics | DeepTech | Sovereignty & GovTech | Industry & Supply Chain,
+Groupe Caisse des Dépots,2,partner,France,pavillon7,2D48,Fintech & Banking & Compliance | Energy & Greentech | Sovereignty & GovTech | Mobility & Smart Cities | Cloud & Infrastructure & Connectivity,
+India,2,partner,India,pavillon7,1D40 + 1F39 + 1F40,Artificial Intelligence & Robotics | DeepTech | Energy & Greentech | Sovereignty & GovTech | Growth & Startup & Investment,
+KPMG,2,partner,France,pavillon7,3D09,Healthcare & Wellness | Fintech & Banking & Compliance | DeepTech | Sovereignty & GovTech | Energy & Greentech,
+LVMH,2,partner,France,pavillon7,3D20,Luxury & Fashion & Cosmetics | Retail & E-commerce | Marketing & Advertising | Artificial Intelligence & Robotics | Energy & Greentech,
+Manutan Group,2,partner,France,pavillon7,2J38,Retail & E-commerce | Consulting & B2B services,
+Microsoft,2,partner,France,pavillon7,2F59,Artificial Intelligence & Robotics | Cloud & Infrastructure & Connectivity | HR & EdTech & Future of Work | Cybersecurity & Defense,
+Nebius,2,partner,Netherlands,pavillon7,,Artificial Intelligence & Robotics | Healthcare & Wellness | Retail & E-commerce | Fintech & Banking & Compliance | Media & Entertainment & Creators Economy,
+Nimesis Technology,2,startup,France,,3H36-025,DeepTech | Sovereignty & GovTech | Growth & Startup & Investment,Pre-Seed - <$1M
+Off-Works,2,startup,France,pavillon7,1D24-003,Consulting & B2B services | Artificial Intelligence & Robotics | Marketing & Advertising,Seed - $1M - $5M
+Oracle,2,partner,United States of America,pavillon7,,Cloud & Infrastructure & Connectivity | Retail & E-commerce | Industry & Supply Chain | Sovereignty & GovTech | Artificial Intelligence & Robotics,
+Politico,2,partner,Belgium,,,Energy & Greentech | Artificial Intelligence & Robotics | Food & Agriculture | Cybersecurity & Defense,
+Rice University,2,partner,United States of America,pavillon7,2D01,Mobility & Smart Cities | HR & EdTech & Future of Work | Energy & Greentech | Artificial Intelligence & Robotics,
+Samsung,2,partner,South Korea,pavillon7,1D07,Artificial Intelligence & Robotics | DeepTech | Healthcare & Wellness | Growth & Startup & Investment,
+Scaleway,2,partner,France,pavillon7,3F10,Artificial Intelligence & Robotics | Sovereignty & GovTech | Cloud & Infrastructure & Connectivity,
+Sonepar,2,partner,France,pavillon7,,Artificial Intelligence & Robotics | Industry & Supply Chain | Retail & E-commerce | HR & EdTech & Future of Work,
+Stegra,2,startup,Sweden,pavillon7,3H49-007,Industry & Supply Chain | Energy & Greentech | Mobility & Smart Cities,
+T Systems,2,partner,Germany,pavillon7,3E04,Cloud & Infrastructure & Connectivity | Cybersecurity & Defense | Artificial Intelligence & Robotics | Sovereignty & GovTech,
+Tech by Handelsblatt,2,partner,Germany,,,Artificial Intelligence & Robotics | DeepTech | Sovereignty & GovTech | Cloud & Infrastructure & Connectivity,
+The Hong Kong Polytechnic University,2,startup,Hong Kong,,1C11-012,Artificial Intelligence & Robotics | Energy & Greentech | Healthcare & Wellness,
+The New York Times,2,partner,United States of America,,,Media & Entertainment & Creators Economy,
+Wandercraft,2,startup,France,pavillon7,2G62-041,Artificial Intelligence & Robotics | Sovereignty & GovTech | Healthcare & Wellness,Series C - $50M - $200M
+Webedia,2,partner,France,,,Gaming & Sports & Esports | Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics,
+Xpanceo,2,startup,United Arab Emirates,pavillon7,1E04-003,DeepTech | Healthcare & Wellness | Space & Aeronautics,
+evroc,2,startup,Sweden,pavillon7,3H49-002,Artificial Intelligence & Robotics | Sovereignty & GovTech | Cloud & Infrastructure & Connectivity,
+3dvarius,1,startup,France,,2B61-001,Artificial Intelligence & Robotics | Energy & Greentech | Media & Entertainment & Creators Economy,Bootstrapped - 0
+AI Factory France (Genci),1,partner,France,pavillon7,2H66,Artificial Intelligence & Robotics | Sovereignty & GovTech | Diversity & Inclusion | Space & Aeronautics,
+Abillio,1,startup,Latvia,pavillon7,2J55-002,Fintech & Banking & Compliance | HR & EdTech & Future of Work | Media & Entertainment & Creators Economy,Bootstrapped - 0 | Pre-Seed - <$1M
+Ad Verbum,1,startup,Latvia,pavillon7,2J55-003,Fintech & Banking & Compliance | Cybersecurity & Defense | Consulting & B2B services,Not yet - 0
+Alibaba Cloud,1,partner,China,pavillon7,,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | DeepTech | Cloud & Infrastructure & Connectivity | Retail & E-commerce,
+Allergen Alert,1,startup,France,pavillon7,2D10-001,Retail & E-commerce | Growth & Startup & Investment | Marketing & Advertising,Seed - $1M - $5M
+Alta Ares,1,startup,France,pavillon7,2D10-002,Artificial Intelligence & Robotics,
+Ark Climate,1,startup,Germany,,,Energy & Greentech | Sovereignty & GovTech | Mobility & Smart Cities,
+Arte,1,partner,France,,,Gaming & Sports & Esports | Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics,
+Bacbudy Limited,1,startup,Hong Kong,,1C11-008,Industry & Supply Chain | Mobility & Smart Cities | Growth & Startup & Investment,Bootstrapped - 0 | Pre-Seed - <$1M
+Bienesis,1,startup,France,pavillon7,2D35-004,Food & Agriculture | Artificial Intelligence & Robotics | Energy & Greentech,
+Blue Bridge AI,1,partner,United Arab Emirates,pavillon7,,Artificial Intelligence & Robotics | Consulting & B2B services | Fintech & Banking & Compliance | Industry & Supply Chain,
+Bouygues,1,partner,France,pavillon7,3B38,Artificial Intelligence & Robotics | Energy & Greentech | Mobility & Smart Cities | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+Brut,1,partner,France,,,Media & Entertainment & Creators Economy,
+CMA - CGM,1,partner,France,pavillon7,2F29,Industry & Supply Chain | Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics | Growth & Startup & Investment,
+CNRS,1,partner,France,pavillon7,2C61,Sovereignty & GovTech | Space & Aeronautics | Cybersecurity & Defense | Energy & Greentech | Artificial Intelligence & Robotics,
+Caixin Global,1,partner,China,,,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | Energy & Greentech | Industry & Supply Chain,
+Celonis,1,partner,Germany,pavillon7,3E08,Artificial Intelligence & Robotics | Industry & Supply Chain | Cybersecurity & Defense | Retail & E-commerce,
+Chinapavillon,1,partner,France,pavillon7,,Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics | Marketing & Advertising | HR & EdTech & Future of Work,
+Choose Paris Région,1,partner,France,pavillon7,2D14,Artificial Intelligence & Robotics | DeepTech | Energy & Greentech | Healthcare & Wellness,
+Cohere,1,startup,Canada,pavillon7,3F13-033,Fintech & Banking & Compliance | Energy & Greentech | Sovereignty & GovTech,
+Concerti,1,startup,France,,2B59-003,Consulting & B2B services | Growth & Startup & Investment | Media & Entertainment & Creators Economy,Seed - $1M - $5M
+Contentsquare,1,startup,France,pavillon7,2G62-006,Artificial Intelligence & Robotics | Marketing & Advertising | Retail & E-commerce,
+Cyclotech Gmbh,1,startup,Austria,pavillon7,1E28-001,Space & Aeronautics | Mobility & Smart Cities | Growth & Startup & Investment,Series A - $5M - $15M
+Datadog,1,partner,United States of America,pavillon7,3J20,Cloud & Infrastructure & Connectivity | Artificial Intelligence & Robotics,
+Deel,1,partner,United States of America,pavillon7,2G20,HR & EdTech & Future of Work | Fintech & Banking & Compliance | Growth & Startup & Investment | Consulting & B2B services,
+Deloitte Africa,1,partner,,pavillon7,,,
+Edubolt,1,startup,Lebanon,pavillon7,2C38-002,Artificial Intelligence & Robotics | Consulting & B2B services | HR & EdTech & Future of Work,Not yet - 0
+Endolith,1,startup,United States of America,,,Energy & Greentech | Cybersecurity & Defense,Series B - $15M - $50M
+Envision,1,partner,China,pavillon7,3D14,Artificial Intelligence & Robotics | DeepTech | Energy & Greentech | Industry & Supply Chain | Growth & Startup & Investment,
+Eskimoz,1,partner,France,pavillon7,2J28,Marketing & Advertising | Retail & E-commerce,
+Ethiqais,1,startup,France,pavillon7,2D16-014,Artificial Intelligence & Robotics | Sovereignty & GovTech | Cybersecurity & Defense,Pre-Seed - <$1M
+Ethylowheel,1,startup,France,pavillon7,3H19-001,DeepTech | Healthcare & Wellness | Mobility & Smart Cities,Not yet - 0
+Factorial,1,partner,Spain,pavillon7,2B01,HR & EdTech & Future of Work | Artificial Intelligence & Robotics,
+Financial Times,1,partner,United Kingdom,,,Media & Entertainment & Creators Economy,
+Fintech Latvia Association,1,startup,Latvia,pavillon7,2J55-004,Fintech & Banking & Compliance | Artificial Intelligence & Robotics | Growth & Startup & Investment,
+Foodles,1,startup,France,pavillon7,2G62-010,Food & Agriculture | Industry & Supply Chain | Consulting & B2B services,
+Fortune,1,partner,,,,,
+Forvis Mazars,1,partner,France,pavillon7,,Artificial Intelligence & Robotics | Energy & Greentech | Industry & Supply Chain | Cybersecurity & Defense,
+France 24,1,partner,France,pavillon7,3H59,Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics | Energy & Greentech,
+France Télévisions,1,partner,France,pavillon7,2C68,Media & Entertainment & Creators Economy | Diversity & Inclusion | Marketing & Advertising | Artificial Intelligence & Robotics,
+Freshworks,1,partner,United States of America,pavillon7,2B30,HR & EdTech & Future of Work | Luxury & Fashion & Cosmetics | Cloud & Infrastructure & Connectivity | Retail & E-commerce | Industry & Supply Chain,
+Frogans,1,partner,France,pavillon7,1F41,Growth & Startup & Investment | Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics,
+Genesis AI,1,startup,France,pavillon7,2F68-002,Artificial Intelligence & Robotics | Industry & Supply Chain,
+HEC Paris,1,partner,France,pavillon7,,Artificial Intelligence & Robotics | DeepTech | HR & EdTech & Future of Work | Cybersecurity & Defense,
+Hub France IA,1,startup,France,pavillon7,2G15-002,Artificial Intelligence & Robotics,Not yet - 0
+Hylight,1,startup,France,pavillon7,3B23-001,Artificial Intelligence & Robotics,Seed - $1M - $5M
+Improveheat,1,startup,France,pavillon7,3G45-006,DeepTech | Energy & Greentech,Not yet - 0
+Infobip,1,partner,Croatia,pavillon7,2H57,Artificial Intelligence & Robotics | Marketing & Advertising | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity | Growth & Startup & Investment,
+Institut Mines-Telecom,1,partner,France,pavillon7,3H14,Artificial Intelligence & Robotics | Industry & Supply Chain | Cybersecurity & Defense | DeepTech,
+Intel,1,partner,United States of America,pavillon7,,Artificial Intelligence & Robotics | Sovereignty & GovTech | Cybersecurity & Defense | Cloud & Infrastructure & Connectivity,
+Istaging Corp.,1,startup,Taiwan,pavillon7,2B48-010,Mobility & Smart Cities | Retail & E-commerce | Luxury & Fashion & Cosmetics,
+JCDecaux,1,partner,France,pavillon7,1G02,Artificial Intelligence & Robotics | Media & Entertainment & Creators Economy | Mobility & Smart Cities | Sovereignty & GovTech,
+Jetro - Japan External Trade Organization,1,partner,Japan,pavillon7,2D09,Artificial Intelligence & Robotics | DeepTech | Energy & Greentech | Industry & Supply Chain | Growth & Startup & Investment,
+Konecta,1,partner,Spain,pavillon7,,Artificial Intelligence & Robotics | Consulting & B2B services | Retail & E-commerce | Cloud & Infrastructure & Connectivity,
+Korben,1,startup,France,pavillon7,1E14-003,Artificial Intelligence & Robotics | Consulting & B2B services | Growth & Startup & Investment,
+Lefebvre Dalloz,1,partner,France,pavillon7,2J16,Sovereignty & GovTech | Artificial Intelligence & Robotics | Consulting & B2B services | HR & EdTech & Future of Work,
+Linkedin,1,partner,United States of America,pavillon7,2B37,Media & Entertainment & Creators Economy | Marketing & Advertising | HR & EdTech & Future of Work,
+Maddyness,1,partner,France,pavillon7,1C44,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | DeepTech | Media & Entertainment & Creators Economy,
+Malt,1,partner,France,pavillon7,2G73,Artificial Intelligence & Robotics | Consulting & B2B services | HR & EdTech & Future of Work,
+Momentum Technologies (Lifepods),1,startup,France,pavillon7,1E04-004,Sovereignty & GovTech | Growth & Startup & Investment | Cybersecurity & Defense,Bootstrapped - 0
+Métropole du Grand Paris,1,partner,France,pavillon7,3B50,Artificial Intelligence & Robotics | Energy & Greentech | Food & Agriculture | Mobility & Smart Cities | Cybersecurity & Defense,
+Neurathletics,1,startup,France,pavillon7,2H32-021,DeepTech | Gaming & Sports & Esports | Healthcare & Wellness,Not yet - 0
+Notion,1,partner,United States of America,pavillon7,1D42,Artificial Intelligence & Robotics | Consulting & B2B services | DeepTech | Growth & Startup & Investment,
+Nuitee,1,startup,Ireland,pavillon7,3J45-002,Artificial Intelligence & Robotics | Fintech & Banking & Compliance | Retail & E-commerce,Bootstrapped - 0 | Series A - $5M - $15M
+OHé - Orthographe Héros,1,startup,France,,2B59-020,HR & EdTech & Future of Work | Diversity & Inclusion | Growth & Startup & Investment,Pre-Seed - <$1M
+Ogyre,1,startup,Italy,,3F32-001,Growth & Startup & Investment | Food & Agriculture | Industry & Supply Chain,Series A - $5M - $15M
+Oliq Africa,1,startup,Kenya,pavillon7,2C38-003,Fintech & Banking & Compliance | Artificial Intelligence & Robotics | Growth & Startup & Investment,
+One Board,1,startup,France,pavillon7,1D39-008,Industry & Supply Chain | Mobility & Smart Cities | Growth & Startup & Investment,Seed - $1M - $5M
+Open,1,startup,France,pavillon7,2F14-004,Artificial Intelligence & Robotics | Consulting & B2B services | Cloud & Infrastructure & Connectivity,
+Orisha,1,partner,France,pavillon7,,Artificial Intelligence & Robotics | Healthcare & Wellness | Growth & Startup & Investment | Retail & E-commerce | Cloud & Infrastructure & Connectivity,
+OxGen Holdings Limited,1,startup,Hong Kong,,1C11-010,Artificial Intelligence & Robotics | Consulting & B2B services | Growth & Startup & Investment,
+Papilio.bio,1,startup,France,pavillon7,2B28-019,DeepTech | Diversity & Inclusion | Healthcare & Wellness,Bootstrapped - 0
+Pasqal SAS,1,startup,France,pavillon7,2H70-001,Fintech & Banking & Compliance | Energy & Greentech | Industry & Supply Chain,
+Pigment,1,startup,France,pavillon7,2F37-025,Industry & Supply Chain | HR & EdTech & Future of Work | Artificial Intelligence & Robotics,Series C - $50M - $200M
+Pixstart,1,startup,France,pavillon7,2D35-003,Industry & Supply Chain | Luxury & Fashion & Cosmetics,Bootstrapped - 0
+Point Fit Technology Limited,1,startup,Hong Kong,,1C11-002,Healthcare & Wellness,Seed - $1M - $5M
+Pollen,1,startup,France,pavillon7,2G15-001,Artificial Intelligence & Robotics | HR & EdTech & Future of Work | Consulting & B2B services,Seed - $1M - $5M
+Probabl,1,startup,France,,2H62-011,DeepTech | Artificial Intelligence & Robotics | Consulting & B2B services,Seed - $1M - $5M | Pre-Seed - <$1M
+Publicis Sapient,1,partner,United Kingdom,pavillon7,,Cloud & Infrastructure & Connectivity | Artificial Intelligence & Robotics | Fintech & Banking & Compliance | Industry & Supply Chain,
+Quantexa,1,partner,United Kingdom,pavillon7,2J27,Fintech & Banking & Compliance | Sovereignty & GovTech | Artificial Intelligence & Robotics,
+Quobly,1,startup,France,pavillon7,2H70-004,DeepTech | Sovereignty & GovTech | Cybersecurity & Defense,
+Road-Rome Advanced District,1,partner,Italy,pavillon7,,HR & EdTech & Future of Work | Mobility & Smart Cities | Artificial Intelligence & Robotics | Energy & Greentech,
+Robeauté,1,startup,France,,,Artificial Intelligence & Robotics | DeepTech | Healthcare & Wellness,Seed - $1M - $5M | Series A - $5M - $15M
+Robocore Technology Limited,1,startup,Hong Kong,,1C11-022,DeepTech,Series C - $50M - $200M
+Rofim,1,startup,France,pavillon7,2D16-051,Healthcare & Wellness | Artificial Intelligence & Robotics,
+Runpod,1,partner,United States of America,pavillon7,1B01,Cloud & Infrastructure & Connectivity | Artificial Intelligence & Robotics | Growth & Startup & Investment,
+Région Grand Est,1,partner,France,pavillon7,3H36,Energy & Greentech | Healthcare & Wellness | Industry & Supply Chain | Artificial Intelligence & Robotics,
+Région Île-de-France,1,partner,France,pavillon7,2D14,Diversity & Inclusion | Sovereignty & GovTech | Mobility & Smart Cities | Growth & Startup & Investment | DeepTech,
+Scale AI,1,partner,Canada,pavillon7,3F13,Growth & Startup & Investment | Artificial Intelligence & Robotics | Sovereignty & GovTech,
+Sekoia,1,startup,France,pavillon7,2G62-020,Artificial Intelligence & Robotics | Cybersecurity & Defense | Sovereignty & GovTech,Series B - $15M - $50M
+Smile,1,partner,France,pavillon7,1J10,Artificial Intelligence & Robotics | Consulting & B2B services | Sovereignty & GovTech | Cloud & Infrastructure & Connectivity,
+Snowflake,1,partner,France,pavillon7,2F13,Cloud & Infrastructure & Connectivity | Retail & E-commerce | Media & Entertainment & Creators Economy | Artificial Intelligence & Robotics,
+Startup Portugal,1,partner,Portugal,pavillon7,3J24,Growth & Startup & Investment | Consulting & B2B services | Marketing & Advertising | Fintech & Banking & Compliance,
+Stravito,1,startup,Sweden,pavillon7,3J46-001,Artificial Intelligence & Robotics | Marketing & Advertising | Growth & Startup & Investment,Series A - $5M - $15M
+Sweep,1,startup,France,pavillon7,2G62-025,Space & Aeronautics | Industry & Supply Chain | Energy & Greentech,
+Telika AI,1,startup,Nigeria,pavillon7,2C38-001,Growth & Startup & Investment | Artificial Intelligence & Robotics | Fintech & Banking & Compliance,Bootstrapped - 0
+Tencent Cloud,1,partner,Netherlands,pavillon7,2G01,Cloud & Infrastructure & Connectivity | Media & Entertainment & Creators Economy | DeepTech | Healthcare & Wellness,
+Tetmet,1,startup,France,pavillon7,1E14-001,Industry & Supply Chain | Space & Aeronautics | Cybersecurity & Defense,Seed - $1M - $5M
+The Exploration Company,1,startup,Germany,pavillon7,1E28-003,Space & Aeronautics,Series B - $15M - $50M
+The Forecasting Company,1,partner,France,pavillon7,2J56,Artificial Intelligence & Robotics | Industry & Supply Chain | Retail & E-commerce | Energy & Greentech,
+The French Tech Journal,1,partner,France,,,DeepTech | Artificial Intelligence & Robotics | Energy & Greentech | Sovereignty & GovTech,
+Tilde,1,startup,Latvia,pavillon7,2J55-005,Sovereignty & GovTech | Cloud & Infrastructure & Connectivity | Artificial Intelligence & Robotics,
+Totalenergies,1,partner,France,pavillon7,3D37,Energy & Greentech | Industry & Supply Chain | Mobility & Smart Cities | Artificial Intelligence & Robotics,
+Unitree Robotics,1,partner,China,pavillon7,1F42,Artificial Intelligence & Robotics,
+University of Latvia,1,startup,Latvia,pavillon7,2J55-006,DeepTech | Energy & Greentech | Food & Agriculture,
+Université Paris Cité,1,partner,France,pavillon7,2J20,DeepTech | Sovereignty & GovTech | Healthcare & Wellness | Artificial Intelligence & Robotics,
+Université Paris Saclay,1,partner,France,pavillon7,3H19,Artificial Intelligence & Robotics | DeepTech | Diversity & Inclusion | Energy & Greentech,
+Upscale AI,1,partner,United States of America,pavillon7,2G74,Cloud & Infrastructure & Connectivity | DeepTech | Artificial Intelligence & Robotics | Sovereignty & GovTech,
+VivaTech,1,partner,France,,,Artificial Intelligence & Robotics | Energy & Greentech | Sovereignty & GovTech | Cybersecurity & Defense | Retail & E-commerce,
+Voltcore,1,startup,Luxembourg,,3H44-011,DeepTech | Energy & Greentech | Mobility & Smart Cities,
+Vusion,1,partner,France,pavillon7,1F11,Artificial Intelligence & Robotics | Retail & E-commerce | Marketing & Advertising,
+Wavestone,1,partner,France,pavillon7,,Artificial Intelligence & Robotics | Consulting & B2B services | Cybersecurity & Defense,
+Wilgo,1,startup,France,pavillon7,2D36-015,HR & EdTech & Future of Work | Marketing & Advertising | Growth & Startup & Investment,Pre-Seed - <$1M
+Wonderful,1,partner,Netherlands,pavillon7,,Retail & E-commerce | Fintech & Banking & Compliance | Media & Entertainment & Creators Economy | Healthcare & Wellness,
+Yena.ai,1,startup,Latvia,pavillon7,2J55-007,Artificial Intelligence & Robotics | HR & EdTech & Future of Work,
+Yona Robotics,1,startup,France,pavillon7,1D39-012,Artificial Intelligence & Robotics | DeepTech | Sovereignty & GovTech,Seed - $1M - $5M
+Zalando,1,partner,Germany,pavillon7,,Luxury & Fashion & Cosmetics | Retail & E-commerce | Artificial Intelligence & Robotics | Industry & Supply Chain,
+Zero Carbon Emission,1,startup,France,pavillon7,1D39-013,DeepTech | Mobility & Smart Cities | Cloud & Infrastructure & Connectivity,Pre-Seed - <$1M
+Zeroth,1,partner,China,pavillon7,1J06,Artificial Intelligence & Robotics,
+Zoho Corporation Pvt Ltd,1,startup,India,pavillon7,1F40-001,Consulting & B2B services | DeepTech | Energy & Greentech,
+eleQtron ,1,startup,Germany,,3F29-040,Sovereignty & GovTech | Growth & Startup & Investment | Industry & Supply Chain,Series A - $5M - $15M

@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-06-17T21:22:22+00:00",
+  "target_entities": 4286,
+  "target_by_type": {
+    "company": 3153,
+    "speaker": 1133
+  },
+  "broad_bing_successes": 71,
+  "broad_bing_successes_by_type": {
+    "company": 71
+  },
+  "broad_bing_failures_logged": 76,
+  "official_bing_successes": 0,
+  "official_bing_successes_by_type": {},
+  "official_bing_failures_logged": 50,
+  "search_api_probe": {
+    "SERPER_API_KEY_present": true,
+    "serper_dev_search": "HTTP 403 Unauthorized",
+    "serpapi_search_json": "HTTP 401 Invalid API key",
+    "cloned_serpscraper": "fails because response is not SerpApi-shaped: missing field search_metadata"
+  },
+  "direct_vivatech_detail_probe": "speaker/exhibitor detail URLs timed out or reset during urllib probe",
+  "files": {
+    "broad_summary": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_summary.json",
+    "official_summary": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_summary_official.json",
+    "broad_results": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_results.jsonl",
+    "official_results": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_results_official.jsonl",
+    "broad_failures": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_failures.csv",
+    "official_failures": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_failures_official.csv",
+    "entities": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_enrichment_entities_official.csv"
+  }
+}

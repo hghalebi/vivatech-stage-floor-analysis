@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VivaTech Polemic Social Pack</title>
+  <style>
+    body {
+      margin: 0;
+      background: #fbfaf7;
+      color: #171411;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+    main { max-width: 1180px; margin: 0 auto; padding: 42px 22px 70px; }
+    h1 { font-size: clamp(2.4rem, 5vw, 5.5rem); line-height: 0.96; letter-spacing: 0; margin: 0 0 16px; }
+    .lede { color: #5f5750; max-width: 850px; font-size: 1.15rem; margin-bottom: 28px; }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      border: 1px solid #ddd4c8;
+      margin: 28px 0 38px;
+    }
+    .metric { padding: 18px; border-right: 1px solid #ddd4c8; }
+    .metric:last-child { border-right: none; }
+    .metric strong { display: block; font-size: 2rem; }
+    .metric span { color: #5f5750; }
+    .card-row {
+      display: grid;
+      grid-template-columns: minmax(280px, 0.38fr) minmax(0, 0.62fr);
+      gap: 30px;
+      border-top: 1px solid #ddd4c8;
+      padding: 34px 0;
+      align-items: start;
+    }
+    img { width: 100%; height: auto; display: block; border: 1px solid #ddd4c8; }
+    h2 { font-size: clamp(1.6rem, 3.5vw, 3.8rem); line-height: 1; letter-spacing: 0; margin: 0 0 14px; }
+    p { color: #5f5750; font-size: 1rem; }
+    .punch { color: #c94343; font-size: 1.2rem; font-weight: 800; }
+    .rank { color: #2454a6; font-weight: 900; text-transform: uppercase; letter-spacing: 0.08em; }
+    .caveat { border-left: 4px solid #ddd4c8; padding-left: 14px; }
+    @media (max-width: 820px) {
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .card-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>VivaTech's viral story is not AI. It is who gets the microphone.</h1>
+  <p class="lede">These are social-ready, polemic-but-defensible claim cards. Each claim uses the public company and speaker listing scrape, and each includes the caveat needed to avoid overclaiming.</p>
+  <section class="metrics">
+    <div class="metric"><strong>3,153</strong><span>companies</span></div>
+    <div class="metric"><strong>1,133</strong><span>speakers</span></div>
+    <div class="metric"><strong>355</strong><span>matched speakers</span></div>
+    <div class="metric"><strong>12</strong><span>social claims</span></div>
+  </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_01.svg" alt="Partners are 21x louder per company than startups." />
+              <div>
+                <p class="rank">Card 01</p>
+                <h2>Partners are 21x louder per company than startups.</h2>
+                <p class="punch">The event sells a startup floor, but the matched microphone belongs to institutions.</p>
+                <p><strong>Evidence:</strong> Partners are 13.8% of exhibitors and 77.2% of matched speaker slots. Startups are 86.2% of exhibitors and 22.8% of matched speaker slots.</p>
+                <p class="caveat"><strong>Caveat:</strong> This is based on conservative exhibitor-speaker organization matching; unmatched speakers are excluded.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_02.svg" alt="Top billing almost erases startups." />
+              <div>
+                <p class="rank">Card 02</p>
+                <h2>Top billing almost erases startups.</h2>
+                <p class="punch">Only one top-billed matched speaker maps to a startup exhibitor.</p>
+                <p><strong>Evidence:</strong> Among 20 top-billed speakers that matched exhibitors, 19 map to partners and 1 maps to a startup. Per exhibitor, partner top-billing density is 119.0x startup density.</p>
+                <p class="caveat"><strong>Caveat:</strong> This only counts top speakers that match exhibitor organizations; celebrity and government speakers often do not match exhibitors.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_03.svg" alt="Top speakers are twice as likely to be tagless." />
+              <div>
+                <p class="rank">Card 03</p>
+                <h2>Top speakers are twice as likely to be tagless.</h2>
+                <p class="punch">The highest-status speaker layer is less classified by topic than ordinary speakers.</p>
+                <p><strong>Evidence:</strong> 57.4% of top speakers have no speaker tags, compared with 27.8% of non-top speakers.</p>
+                <p class="caveat"><strong>Caveat:</strong> A missing tag is a listing-data signal, not proof that the speaker lacks a topic.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_04.svg" alt="Tech for Change is under-amplified." />
+              <div>
+                <p class="rank">Card 04</p>
+                <h2>Tech for Change is under-amplified.</h2>
+                <p class="punch">The moral label shows up on the floor, but weakly converts into matched speakers.</p>
+                <p><strong>Evidence:</strong> Tech for Change has 424 exhibitors but 13 matched speakers: 3.1 per 100 companies. Unlabeled exhibitors have 12.5 per 100, about 4.0x higher.</p>
+                <p class="caveat"><strong>Caveat:</strong> The label may identify a curated floor program rather than a stage program; still, the attention gap is real in the listing data.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_05.svg" alt="The floor is concentrated in one hall, but attention is still scarce." />
+              <div>
+                <p class="rank">Card 05</p>
+                <h2>The floor is concentrated in one hall, but attention is still scarce.</h2>
+                <p class="punch">Booth geography does not explain the microphone gap.</p>
+                <p><strong>Evidence:</strong> Pavillon 7 contains 2517 exhibitors (79.8% of all companies), yet only 159 of those companies have a matched speaker (6.3%).</p>
+                <p class="caveat"><strong>Caveat:</strong> Hall values are listing fields; 636 companies have no hall value in the payload.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_06.svg" alt="Retail is the booth economy with almost no speaker narrative." />
+              <div>
+                <p class="rank">Card 06</p>
+                <h2>Retail is the booth economy with almost no speaker narrative.</h2>
+                <p class="punch">A commercially visible category is nearly absent from the speaker tag layer.</p>
+                <p><strong>Evidence:</strong> Retail &amp; E-commerce has 337 tagged exhibitors (10.7%) but only 6 tagged speakers (0.5%), a -10.2 point under-index.</p>
+                <p class="caveat"><strong>Caveat:</strong> Tags are multi-select listing categories, not exclusive sectors.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_07.svg" alt="AI is not the story. AI is the wallpaper." />
+              <div>
+                <p class="rank">Card 07</p>
+                <h2>AI is not the story. AI is the wallpaper.</h2>
+                <p class="punch">When nearly half the event is tagged AI, the sharper story is who gets amplified inside AI.</p>
+                <p><strong>Evidence:</strong> AI/Robotics appears on 1513 exhibitors (48.0%) and 528 speakers (46.6%).</p>
+                <p class="caveat"><strong>Caveat:</strong> The AI tag measures listing taxonomy, not product quality or real AI depth.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_08.svg" alt="The US punches far above its booth count." />
+              <div>
+                <p class="rank">Card 08</p>
+                <h2>The US punches far above its booth count.</h2>
+                <p class="punch">Booths and agenda leverage tell different geopolitical stories.</p>
+                <p><strong>Evidence:</strong> The US has 73 exhibitors and 68 matched speakers (93.2 per 100 companies). India has 88 exhibitors and 3 matched speakers (3.4 per 100).</p>
+                <p class="caveat"><strong>Caveat:</strong> Country labels come from exhibitor records and need normalization before official rankings.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_09.svg" alt="Korea has booth mass but almost no matched microphone." />
+              <div>
+                <p class="rank">Card 09</p>
+                <h2>Korea has booth mass but almost no matched microphone.</h2>
+                <p class="punch">After fixing the split country label, Korea remains almost silent in matched speaker density.</p>
+                <p><strong>Evidence:</strong> South Korea plus `korearepublicof` totals 153 exhibitor records but only 2 matched speakers, or 1.3 per 100 companies.</p>
+                <p class="caveat"><strong>Caveat:</strong> This claim depends on normalizing the raw country split and may undercount unmatched speaker organizations.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_10.svg" alt="Funding maturity buys microphone odds." />
+              <div>
+                <p class="rank">Card 10</p>
+                <h2>Funding maturity buys microphone odds.</h2>
+                <p class="punch">The event celebrates early startups, but later-stage companies get much better matched speaker density.</p>
+                <p><strong>Evidence:</strong> Series C exhibitors show 16.7 matched speakers per 100 companies, versus 2.1 for bootstrapped companies.</p>
+                <p class="caveat"><strong>Caveat:</strong> Series C has only 24 companies, so this is a directional signal rather than a causal proof.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_11.svg" alt="The public exhibitor list is not built for understanding companies." />
+              <div>
+                <p class="rank">Card 11</p>
+                <h2>The public exhibitor list is not built for understanding companies.</h2>
+                <p class="punch">It is a sorting layer, not a discovery layer.</p>
+                <p><strong>Evidence:</strong> 3153 of 3153 exhibitor short descriptions are empty (100.0%).</p>
+                <p class="caveat"><strong>Caveat:</strong> Detail pages may contain richer information; this claim is scoped to the bulk listing payload.</p>
+              </div>
+            </section>
+
+            <section class="card-row">
+              <img src="polemic_outputs/social_cards/card_12.svg" alt="The same normalized company names repeat across the floor." />
+              <div>
+                <p class="rank">Card 12</p>
+                <h2>The same normalized company names repeat across the floor.</h2>
+                <p class="punch">Even before external enrichment, identity resolution is a real analytical problem.</p>
+                <p><strong>Evidence:</strong> 40 normalized company names appear more than once; examples include alice bob and h.</p>
+                <p class="caveat"><strong>Caveat:</strong> Some repeats are legitimate multi-booth or naming collisions; do not dedupe without manual review.</p>
+              </div>
+            </section>
+
+</main>
+</body>
+</html>

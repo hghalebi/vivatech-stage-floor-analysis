@@ -1,0 +1,25 @@
+{
+  "company_count": 3153,
+  "speaker_count": 1133,
+  "matched_speakers": 355,
+  "visualization_count": 12,
+  "attention_gini": 0.9617328455349924,
+  "top_matched_speaker_counts_by_type": {
+    "partner": 19,
+    "startup": 1
+  },
+  "chart_files": [
+    "01_stage_floor_funnel.svg",
+    "02_top_billing_density.svg",
+    "03_tag_stage_floor_scatter.svg",
+    "04_topic_underindex_leaderboard.svg",
+    "05_country_mic_leverage_ranked.svg",
+    "06_funding_maturity_ladder.svg",
+    "07_role_share_vs_top_rate.svg",
+    "08_missingness_dashboard.svg",
+    "09_attention_lorenz_curve.svg",
+    "10_tech_for_change_attention_gap.svg",
+    "11_tag_pair_heatmap.svg",
+    "12_top_speaker_taglessness.svg"
+  ]
+}

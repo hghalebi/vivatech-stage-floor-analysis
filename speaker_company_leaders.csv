@@ -1,0 +1,41 @@
+rank,speaker_company,speaker_count,speaker_share,exhibitor_match,matched_company_name,matched_company_type,matched_country
+1,L'Oréal,14,0.0124,True,L'Oreal Groupe,partner,France
+2,PwC,12,0.0106,True,PwC,partner,United Kingdom
+3,OVHcloud,6,0.0053,True,OVHcloud,partner,France
+4,Le Jamel Comedy Club,6,0.0053,False,,,
+5,EssilorLuxottica,6,0.0053,True,Essilorluxottica,partner,France
+6,NVIDIA,6,0.0053,True,Nvidia,partner,United States of America
+7,McKinsey & Company,6,0.0053,True,"Quantumblack, AI by Mckinsey",partner,United States of America
+8,EY,6,0.0053,False,,,
+9,Roland Berger,6,0.0053,True,Roland Berger,partner,Germany
+10,Capgemini,6,0.0053,True,Capgemini Technology Services,partner,France
+11,AWS,6,0.0053,True,Amazon Web Services (AWS),partner,United States of America
+12,ENGIE,5,0.0044,True,Engie,partner,France
+13,Eurazeo,5,0.0044,False,,,
+14,Adobe,4,0.0035,True,Adobe,partner,United States of America
+15,Salesforce,4,0.0035,True,Salesforce,partner,France
+16,Bpifrance,4,0.0035,True,Bpifrance,partner,France
+17,BNP Paribas,4,0.0035,True,BNP Paribas,partner,France
+18,IBM,4,0.0035,True,IBM,partner,United States of America
+19,Airbus,4,0.0035,True,Airbus,partner,France
+20,France,3,0.0026,False,,,
+21,Siemens,3,0.0026,True,Siemens,partner,Germany
+22,Orange,3,0.0026,False,,,
+23,CNN,3,0.0026,False,,,
+24,Microsoft France,3,0.0026,False,,,
+25,AXA,3,0.0026,False,,,
+26,POLITICO Europe,3,0.0026,False,,,
+27,Google,3,0.0026,True,Google Cloud,partner,France
+28,ArtMajeur,3,0.0026,True,Artmajeur,partner,France
+29,Aura,3,0.0026,False,,,
+30,Alixio,3,0.0026,False,,,
+31,everyone.AI,3,0.0026,False,,,
+32,leboncoin,3,0.0026,False,,,
+33,Unknown,3,0.0026,False,,,
+34,SAP,3,0.0026,True,SAP,partner,Germany
+35,Serena,3,0.0026,False,,,
+36,Le Parisien,3,0.0026,False,,,
+37,Les Echos,3,0.0026,False,,,
+38,SEPTEO,3,0.0026,True,Septeo,partner,France
+39,Agibot,3,0.0026,True,Agibot,partner,China
+40,Stellantis,3,0.0026,False,,,

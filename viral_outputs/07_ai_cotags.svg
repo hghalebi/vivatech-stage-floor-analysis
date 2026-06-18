@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="564" viewBox="0 0 1180 564" role="img" aria-labelledby="title desc">
+<title>AI is the grammar, not the headline</title>
+<desc>Among AI-tagged records, strongest exhibitor co-tags</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="48" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#1b1b1b">AI is the grammar, not the headline</text>
+<text x="40" y="82" font-family="Inter, Arial, sans-serif" font-size="16" fill="#4f4a45">Among AI-tagged records, strongest exhibitor co-tags</text>
+<text x="40" y="147" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">DeepTech</text>
+<rect x="330" y="128" width="647.4" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="144" width="722.2" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="1060.2" y="154" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">26.8%</text>
+<text x="40" y="195" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Growth &amp; Startup &amp; Investment</text>
+<rect x="330" y="176" width="443.5" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="192" width="562.1" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="900.1" y="202" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">20.9%</text>
+<text x="40" y="243" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Consulting &amp; B2B services</text>
+<rect x="330" y="224" width="265.1" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="240" width="441.2" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="779.2" y="250" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">16.4%</text>
+<text x="40" y="291" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Industry &amp; Supply Chain</text>
+<rect x="330" y="272" width="173.3" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="288" width="345.1" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="683.1" y="298" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">12.8%</text>
+<text x="40" y="339" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Healthcare &amp; Wellness</text>
+<rect x="330" y="320" width="290.6" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="336" width="345.1" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="683.1" y="346" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">12.8%</text>
+<text x="40" y="387" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Sovereignty &amp; GovTech</text>
+<rect x="330" y="368" width="402.7" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="384" width="311.3" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="740.7" y="394" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">11.6%</text>
+<text x="40" y="435" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Cloud &amp; Infrastructure &amp; Connectivity</text>
+<rect x="330" y="416" width="387.4" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="432" width="298.9" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="725.4" y="442" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">11.1%</text>
+<text x="40" y="483" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">Fintech &amp; Banking &amp; Compliance</text>
+<rect x="330" y="464" width="198.8" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="480" width="290.0" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="628.0" y="490" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">10.8%</text>
+<rect x="40" y="525" width="16" height="10" fill="#C94343" opacity="0.70"/>
+<text x="64" y="536" font-family="Inter, Arial, sans-serif" font-size="13" fill="#4f4a45">speaker AI co-tag share</text>
+<rect x="240" y="525" width="16" height="10" fill="#2454A6" opacity="0.90"/>
+<text x="264" y="536" font-family="Inter, Arial, sans-serif" font-size="13" fill="#4f4a45">company_ai_cotag_share_pct</text>
+</svg>

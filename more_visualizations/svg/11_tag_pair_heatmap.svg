@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="805" viewBox="0 0 970 805" role="img">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#171411">Top tag co-occurrence heatmap</text>
+<text x="40" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5f5750">How often the biggest exhibitor tags appear together.</text>
+<text x="340" y="131" transform="rotate(-45 340,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Growth &amp; Startup &amp; Inves</text>
+<text x="398" y="131" transform="rotate(-45 398,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">DeepTech</text>
+<text x="456" y="131" transform="rotate(-45 456,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Energy &amp; Greentech</text>
+<text x="514" y="131" transform="rotate(-45 514,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Industry &amp; Supply Chain</text>
+<text x="572" y="131" transform="rotate(-45 572,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Healthcare &amp; Wellness</text>
+<text x="630" y="131" transform="rotate(-45 630,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Consulting &amp; B2B service</text>
+<text x="688" y="131" transform="rotate(-45 688,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Sovereignty &amp; GovTech</text>
+<text x="746" y="131" transform="rotate(-45 746,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Mobility &amp; Smart Cities</text>
+<text x="804" y="131" transform="rotate(-45 804,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Fintech &amp; Banking &amp; Comp</text>
+<text x="862" y="131" transform="rotate(-45 862,131)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Artificial Intelligence </text>
+<text x="40" y="181" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Artificial Intelligence &amp; Robotics</text>
+<rect x="310" y="145" width="54" height="54" fill="#2454a6" opacity="0.74"/>
+<text x="318" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">316</text>
+<rect x="368" y="145" width="54" height="54" fill="#2454a6" opacity="0.93"/>
+<text x="376" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">406</text>
+<rect x="426" y="145" width="54" height="54" fill="#2454a6" opacity="0.42"/>
+<text x="434" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">163</text>
+<rect x="484" y="145" width="54" height="54" fill="#2454a6" opacity="0.49"/>
+<text x="492" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">194</text>
+<rect x="542" y="145" width="54" height="54" fill="#2454a6" opacity="0.49"/>
+<text x="550" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">194</text>
+<rect x="600" y="145" width="54" height="54" fill="#2454a6" opacity="0.60"/>
+<text x="608" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">248</text>
+<rect x="658" y="145" width="54" height="54" fill="#2454a6" opacity="0.45"/>
+<text x="666" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">175</text>
+<rect x="716" y="145" width="54" height="54" fill="#2454a6" opacity="0.37"/>
+<text x="724" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">138</text>
+<rect x="774" y="145" width="54" height="54" fill="#2454a6" opacity="0.42"/>
+<text x="782" y="179" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">163</text>
+<rect x="832" y="145" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<text x="40" y="239" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Growth &amp; Startup &amp; Investment</text>
+<rect x="310" y="203" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="368" y="203" width="54" height="54" fill="#2454a6" opacity="0.44"/>
+<text x="376" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">174</text>
+<rect x="426" y="203" width="54" height="54" fill="#2454a6" opacity="0.35"/>
+<text x="434" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">130</text>
+<rect x="484" y="203" width="54" height="54" fill="#2454a6" opacity="0.29"/>
+<text x="492" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">101</text>
+<rect x="542" y="203" width="54" height="54" fill="#2454a6" opacity="0.33"/>
+<text x="550" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">120</text>
+<rect x="600" y="203" width="54" height="54" fill="#2454a6" opacity="0.29"/>
+<text x="608" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">102</text>
+<rect x="658" y="203" width="54" height="54" fill="#2454a6" opacity="0.20"/>
+<text x="666" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">57</text>
+<rect x="716" y="203" width="54" height="54" fill="#2454a6" opacity="0.25"/>
+<text x="724" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">79</text>
+<rect x="774" y="203" width="54" height="54" fill="#2454a6" opacity="0.21"/>
+<text x="782" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">64</text>
+<rect x="832" y="203" width="54" height="54" fill="#2454a6" opacity="0.74"/>
+<text x="840" y="237" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">316</text>
+<text x="40" y="297" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">DeepTech</text>
+<rect x="310" y="261" width="54" height="54" fill="#2454a6" opacity="0.44"/>
+<text x="318" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">174</text>
+<rect x="368" y="261" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="426" y="261" width="54" height="54" fill="#2454a6" opacity="0.42"/>
+<text x="434" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">164</text>
+<rect x="484" y="261" width="54" height="54" fill="#2454a6" opacity="0.34"/>
+<text x="492" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">123</text>
+<rect x="542" y="261" width="54" height="54" fill="#2454a6" opacity="0.43"/>
+<text x="550" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">165</text>
+<rect x="600" y="261" width="54" height="54" fill="#2454a6" opacity="0.17"/>
+<text x="608" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">45</text>
+<rect x="658" y="261" width="54" height="54" fill="#2454a6" opacity="0.24"/>
+<text x="666" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">78</text>
+<rect x="716" y="261" width="54" height="54" fill="#2454a6" opacity="0.20"/>
+<text x="724" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">56</text>
+<rect x="774" y="261" width="54" height="54" fill="#2454a6" opacity="0.14"/>
+<text x="782" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">27</text>
+<rect x="832" y="261" width="54" height="54" fill="#2454a6" opacity="0.93"/>
+<text x="840" y="295" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">406</text>
+<text x="40" y="355" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Energy &amp; Greentech</text>
+<rect x="310" y="319" width="54" height="54" fill="#2454a6" opacity="0.35"/>
+<text x="318" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">130</text>
+<rect x="368" y="319" width="54" height="54" fill="#2454a6" opacity="0.42"/>
+<text x="376" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">164</text>
+<rect x="426" y="319" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="484" y="319" width="54" height="54" fill="#2454a6" opacity="0.40"/>
+<text x="492" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">152</text>
+<rect x="542" y="319" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="550" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">38</text>
+<rect x="600" y="319" width="54" height="54" fill="#2454a6" opacity="0.15"/>
+<text x="608" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">35</text>
+<rect x="658" y="319" width="54" height="54" fill="#2454a6" opacity="0.18"/>
+<text x="666" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">50</text>
+<rect x="716" y="319" width="54" height="54" fill="#2454a6" opacity="0.37"/>
+<text x="724" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">138</text>
+<rect x="774" y="319" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="782" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">37</text>
+<rect x="832" y="319" width="54" height="54" fill="#2454a6" opacity="0.42"/>
+<text x="840" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">163</text>
+<text x="40" y="413" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Industry &amp; Supply Chain</text>
+<rect x="310" y="377" width="54" height="54" fill="#2454a6" opacity="0.29"/>
+<text x="318" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">101</text>
+<rect x="368" y="377" width="54" height="54" fill="#2454a6" opacity="0.34"/>
+<text x="376" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">123</text>
+<rect x="426" y="377" width="54" height="54" fill="#2454a6" opacity="0.40"/>
+<text x="434" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">152</text>
+<rect x="484" y="377" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="542" y="377" width="54" height="54" fill="#2454a6" opacity="0.18"/>
+<text x="550" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">47</text>
+<rect x="600" y="377" width="54" height="54" fill="#2454a6" opacity="0.19"/>
+<text x="608" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">53</text>
+<rect x="658" y="377" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="666" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">37</text>
+<rect x="716" y="377" width="54" height="54" fill="#2454a6" opacity="0.23"/>
+<text x="724" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">73</text>
+<rect x="774" y="377" width="54" height="54" fill="#2454a6" opacity="0.17"/>
+<text x="782" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">45</text>
+<rect x="832" y="377" width="54" height="54" fill="#2454a6" opacity="0.49"/>
+<text x="840" y="411" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">194</text>
+<text x="40" y="471" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Healthcare &amp; Wellness</text>
+<rect x="310" y="435" width="54" height="54" fill="#2454a6" opacity="0.33"/>
+<text x="318" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">120</text>
+<rect x="368" y="435" width="54" height="54" fill="#2454a6" opacity="0.43"/>
+<text x="376" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">165</text>
+<rect x="426" y="435" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="434" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">38</text>
+<rect x="484" y="435" width="54" height="54" fill="#2454a6" opacity="0.18"/>
+<text x="492" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">47</text>
+<rect x="542" y="435" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="600" y="435" width="54" height="54" fill="#2454a6" opacity="0.13"/>
+<text x="608" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">26</text>
+<rect x="658" y="435" width="54" height="54" fill="#2454a6" opacity="0.13"/>
+<text x="666" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">24</text>
+<rect x="716" y="435" width="54" height="54" fill="#2454a6" opacity="0.12"/>
+<text x="724" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">19</text>
+<rect x="774" y="435" width="54" height="54" fill="#2454a6" opacity="0.12"/>
+<text x="782" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">21</text>
+<rect x="832" y="435" width="54" height="54" fill="#2454a6" opacity="0.49"/>
+<text x="840" y="469" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">194</text>
+<text x="40" y="529" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Consulting &amp; B2B services</text>
+<rect x="310" y="493" width="54" height="54" fill="#2454a6" opacity="0.29"/>
+<text x="318" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">102</text>
+<rect x="368" y="493" width="54" height="54" fill="#2454a6" opacity="0.17"/>
+<text x="376" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">45</text>
+<rect x="426" y="493" width="54" height="54" fill="#2454a6" opacity="0.15"/>
+<text x="434" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">35</text>
+<rect x="484" y="493" width="54" height="54" fill="#2454a6" opacity="0.19"/>
+<text x="492" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">53</text>
+<rect x="542" y="493" width="54" height="54" fill="#2454a6" opacity="0.13"/>
+<text x="550" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">26</text>
+<rect x="600" y="493" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="658" y="493" width="54" height="54" fill="#2454a6" opacity="0.17"/>
+<text x="666" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">41</text>
+<rect x="716" y="493" width="54" height="54" fill="#2454a6" opacity="0.12"/>
+<text x="724" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">18</text>
+<rect x="774" y="493" width="54" height="54" fill="#2454a6" opacity="0.27"/>
+<text x="782" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">93</text>
+<rect x="832" y="493" width="54" height="54" fill="#2454a6" opacity="0.60"/>
+<text x="840" y="527" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">248</text>
+<text x="40" y="587" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Sovereignty &amp; GovTech</text>
+<rect x="310" y="551" width="54" height="54" fill="#2454a6" opacity="0.20"/>
+<text x="318" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">57</text>
+<rect x="368" y="551" width="54" height="54" fill="#2454a6" opacity="0.24"/>
+<text x="376" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">78</text>
+<rect x="426" y="551" width="54" height="54" fill="#2454a6" opacity="0.18"/>
+<text x="434" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">50</text>
+<rect x="484" y="551" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="492" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">37</text>
+<rect x="542" y="551" width="54" height="54" fill="#2454a6" opacity="0.13"/>
+<text x="550" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">24</text>
+<rect x="600" y="551" width="54" height="54" fill="#2454a6" opacity="0.17"/>
+<text x="608" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">41</text>
+<rect x="658" y="551" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="716" y="551" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="724" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">37</text>
+<rect x="774" y="551" width="54" height="54" fill="#2454a6" opacity="0.19"/>
+<text x="782" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">52</text>
+<rect x="832" y="551" width="54" height="54" fill="#2454a6" opacity="0.45"/>
+<text x="840" y="585" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">175</text>
+<text x="40" y="645" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Mobility &amp; Smart Cities</text>
+<rect x="310" y="609" width="54" height="54" fill="#2454a6" opacity="0.25"/>
+<text x="318" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">79</text>
+<rect x="368" y="609" width="54" height="54" fill="#2454a6" opacity="0.20"/>
+<text x="376" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">56</text>
+<rect x="426" y="609" width="54" height="54" fill="#2454a6" opacity="0.37"/>
+<text x="434" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">138</text>
+<rect x="484" y="609" width="54" height="54" fill="#2454a6" opacity="0.23"/>
+<text x="492" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">73</text>
+<rect x="542" y="609" width="54" height="54" fill="#2454a6" opacity="0.12"/>
+<text x="550" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">19</text>
+<rect x="600" y="609" width="54" height="54" fill="#2454a6" opacity="0.12"/>
+<text x="608" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">18</text>
+<rect x="658" y="609" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="666" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">37</text>
+<rect x="716" y="609" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="774" y="609" width="54" height="54" fill="#2454a6" opacity="0.11"/>
+<text x="782" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">15</text>
+<rect x="832" y="609" width="54" height="54" fill="#2454a6" opacity="0.37"/>
+<text x="840" y="643" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">138</text>
+<text x="40" y="703" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">Fintech &amp; Banking &amp; Compliance</text>
+<rect x="310" y="667" width="54" height="54" fill="#2454a6" opacity="0.21"/>
+<text x="318" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">64</text>
+<rect x="368" y="667" width="54" height="54" fill="#2454a6" opacity="0.14"/>
+<text x="376" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">27</text>
+<rect x="426" y="667" width="54" height="54" fill="#2454a6" opacity="0.16"/>
+<text x="434" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">37</text>
+<rect x="484" y="667" width="54" height="54" fill="#2454a6" opacity="0.17"/>
+<text x="492" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">45</text>
+<rect x="542" y="667" width="54" height="54" fill="#2454a6" opacity="0.12"/>
+<text x="550" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">21</text>
+<rect x="600" y="667" width="54" height="54" fill="#2454a6" opacity="0.27"/>
+<text x="608" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">93</text>
+<rect x="658" y="667" width="54" height="54" fill="#2454a6" opacity="0.19"/>
+<text x="666" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">52</text>
+<rect x="716" y="667" width="54" height="54" fill="#2454a6" opacity="0.11"/>
+<text x="724" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">15</text>
+<rect x="774" y="667" width="54" height="54" fill="#2454a6" opacity="0.08"/>
+<rect x="832" y="667" width="54" height="54" fill="#2454a6" opacity="0.42"/>
+<text x="840" y="701" font-family="Inter, Arial, sans-serif" font-size="12" fill="#171411">163</text>
+</svg>

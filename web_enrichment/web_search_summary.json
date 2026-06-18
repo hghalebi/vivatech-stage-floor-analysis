@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-06-17T21:22:22.857702+00:00",
+  "entity_file": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_enrichment_entities.csv",
+  "result_file": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_results.jsonl",
+  "failure_file": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_failures.csv",
+  "total_entities": 4286,
+  "total_by_type": {
+    "company": 3153,
+    "speaker": 1133
+  },
+  "completed_entities": 71,
+  "completed_by_type": {
+    "company": 71
+  },
+  "remaining_entities": 4215,
+  "attempted_this_run": 0,
+  "failed_this_run": 0
+}

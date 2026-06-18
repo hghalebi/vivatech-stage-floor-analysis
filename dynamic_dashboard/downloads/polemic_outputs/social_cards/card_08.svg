@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img">
+<rect width="100%" height="100%" fill="#151515"/>
+<rect x="54" y="54" width="972" height="1242" rx="0" fill="none" stroke="#ff6b35" stroke-width="6"/>
+<text x="82" y="120" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#ff6b35">VivaTech evidence card 08</text>
+<text x="82" y="170" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#f8f4ec" opacity="0.78">controversy 5/5 · defensibility 4/5</text>
+<text x="82" y="272" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="900" fill="#7cc6fe">27.4x</text>
+<text x="82" y="390" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" fill="#f8f4ec">The US punches far</text>
+<text x="82" y="472" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" fill="#f8f4ec">above its booth</text>
+<text x="82" y="554" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" fill="#f8f4ec">count.</text>
+<text x="82" y="680" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="750" fill="#ff6b35">Booths and agenda leverage tell</text>
+<text x="82" y="726" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="750" fill="#ff6b35">different geopolitical stories.</text>
+<rect x="82" y="798" width="916" height="196" fill="#f8f4ec" opacity="0.07"/>
+<text x="112" y="834" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650" fill="#f8f4ec">The US has 73 exhibitors and 68 matched</text>
+<text x="112" y="870" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650" fill="#f8f4ec">speakers (93.2 per 100 companies). India has</text>
+<text x="112" y="906" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650" fill="#f8f4ec">88 exhibitors and 3 matched speakers (3.4 per</text>
+<text x="112" y="942" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650" fill="#f8f4ec">100).</text>
+<text x="82" y="1118" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#f8f4ec">Caveat: Country labels come from exhibitor records</text>
+<text x="82" y="1150" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#f8f4ec">and need normalization before official rankings.</text>
+<text x="82" y="1250" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#ff6b35">Source: VivaTech company and speaker listing scrape, 2026-06-17</text>
+</svg>

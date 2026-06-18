@@ -1,0 +1,20 @@
+{
+  "company_count": 3153,
+  "speaker_count": 1133,
+  "matched_speakers": 355,
+  "claim_count": 12,
+  "partner_loudness_multiplier": 21.192638106616602,
+  "partner_top_density_per_100_exhibitors": 4.377880184331797,
+  "startup_top_density_per_100_exhibitors": 0.03677822728944465,
+  "top_speaker_tagless_pct": 57.446808510638306,
+  "non_top_speaker_tagless_pct": 27.808471454880294,
+  "techforchange_under_amplification_multiplier": 4.032258064516129,
+  "korea_combined_companies": 153,
+  "korea_combined_matched_speakers": 2,
+  "korea_combined_density_per_100": 1.3071895424836601,
+  "outputs": {
+    "claims": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/polemic_outputs/polemic_claims.csv",
+    "deck": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/polemic_social_deck.html",
+    "cards_dir": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/polemic_outputs/social_cards"
+  }
+}

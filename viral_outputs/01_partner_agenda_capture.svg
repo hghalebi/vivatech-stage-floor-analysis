@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="276" viewBox="0 0 1180 276" role="img" aria-labelledby="title desc">
+<title>Partner-class exhibitors capture the microphone</title>
+<desc>Matched speaker share vs exhibitor share by company type</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="40" y="48" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#1b1b1b">Partner-class exhibitors capture the microphone</text>
+<text x="40" y="82" font-family="Inter, Arial, sans-serif" font-size="16" fill="#4f4a45">Matched speaker share vs exhibitor share by company type</text>
+<text x="40" y="147" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">startup</text>
+<rect x="330" y="128" width="722.2" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="144" width="191.1" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="1060.2" y="154" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">22.8%</text>
+<text x="40" y="195" font-family="Inter, Arial, sans-serif" font-size="15" fill="#26221f">partner</text>
+<rect x="330" y="176" width="115.3" height="12" rx="2" fill="#C94343" opacity="0.70"/>
+<rect x="330" y="192" width="646.4" height="12" rx="2" fill="#2454A6" opacity="0.90"/>
+<text x="984.4" y="202" font-family="Inter, Arial, sans-serif" font-size="14" fill="#26221f">77.2%</text>
+<rect x="40" y="237" width="16" height="10" fill="#C94343" opacity="0.70"/>
+<text x="64" y="248" font-family="Inter, Arial, sans-serif" font-size="13" fill="#4f4a45">exhibitor share</text>
+<rect x="240" y="237" width="16" height="10" fill="#2454A6" opacity="0.90"/>
+<text x="264" y="248" font-family="Inter, Arial, sans-serif" font-size="13" fill="#4f4a45">matched_speaker_share_pct</text>
+</svg>
