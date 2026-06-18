@@ -27,4 +27,4 @@ The media version:
 
 **VivaTech risks reading like the conference equivalent of a magazine filled with advertorial reportage.**
 
-Important caveat: this is public listing analysis, not internal sponsorship data. It measures visibility in the public speaker/exhibitor data, not causality.
+Method note: this is public listing analysis, not internal sponsorship data. It measures visibility in the public speaker/exhibitor data, not causality.

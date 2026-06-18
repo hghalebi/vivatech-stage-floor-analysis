@@ -378,25 +378,6 @@ h3{font-size:1.25rem;line-height:1.25;font-weight:800}
   width:max-content;
   margin-top:auto;
 }
-.language-rules{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:14px;
-  margin-top:18px;
-}
-.language-rules article{
-  padding:20px;
-  border-radius:var(--vt-radius-large);
-  background:#fff;
-  box-shadow:var(--vt-shadow-small);
-}
-.language-rules ul{
-  display:grid;
-  gap:8px;
-  margin:0;
-  padding-left:18px;
-  color:var(--vt-muted);
-}
 .copy-toast{
   position:fixed;
   right:18px;
@@ -695,13 +676,6 @@ input[type=checkbox]{accent-color:var(--vt-pink)}
 }
 .support-card p,.business-model p,.methodology li{color:var(--vt-muted)}
 .business-model{margin-top:16px}
-.redline{
-  margin-top:14px;
-  border-left:6px solid var(--vt-pink);
-  padding-left:14px;
-  color:var(--vt-black)!important;
-  font-weight:800;
-}
 .methodology ul{display:grid;gap:10px;max-width:900px;padding-left:20px;list-style:disc}
 @media(max-width:1120px){
   .vt-header{grid-template-columns:1fr;justify-items:start}
@@ -726,7 +700,7 @@ input[type=checkbox]{accent-color:var(--vt-pink)}
   h2{font-size:2.2rem}
   .section-head{display:block}
   .filters,.chart-controls{justify-content:flex-start;margin-top:14px}
-  .claim-layout,.download-list,.support-grid,.svg-gallery,.executive-grid,.quote-grid,.language-rules{grid-template-columns:1fr}
+  .claim-layout,.download-list,.support-grid,.svg-gallery,.executive-grid,.quote-grid{grid-template-columns:1fr}
   .chart-canvas{min-height:460px}
   .chart-canvas svg{min-width:720px}
   .chart-tabs{flex-wrap:nowrap;overflow:auto}

@@ -20,20 +20,9 @@ The claim cuts against the default conference narrative. Instead of asking which
 
 In media terms, the edge is that VivaTech can read like the conference equivalent of a magazine filled with advertorial reportage: the editorial surface is hard to separate from the commercial visibility machine.
 
-## Safe Language
+## Evidence Scope
 
-- Use "matched speaker slots", not "all speaker influence".
-- Use "public listing data", not "internal agenda decisions".
-- Use "speaker density" or "matched microphone layer", not "power" unless clearly framed as metaphor.
-- Say "conservative matching likely undercounts true links".
-- Treat country rankings as directional until country labels are normalized.
-
-## Claims To Avoid
-
-- Do not say partners bought the stage; sponsorship causality is not proven.
-- Do not say startups were excluded; only public matched-speaker visibility is measured.
-- Do not say AI is fake; the data only shows AI-tag saturation.
-- Do not use the web-search enrichment as evidence for all entities; it is partial and blocked.
+The analysis measures public matched-speaker visibility, not internal agenda decisions or sponsorship causality. Conservative matching likely undercounts true organization links. Country rankings remain directional until country labels are normalized, and web-search enrichment is partial.
 
 ## Recommended Visual Order
 

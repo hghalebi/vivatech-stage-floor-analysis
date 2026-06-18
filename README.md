@@ -57,8 +57,8 @@ The most useful files for public posting are:
 
 - `docs/index.html` - the full local dashboard and GitHub Pages entry point.
 - `docs/vivatech_dashboard_bundle.zip` - the shareable bundle.
-- `analysis/publish_media_kit/executive_viral_brief.md` - boardroom-ready thesis, hooks, and red lines.
-- `analysis/publish_media_kit/editorial_brief.md` - journalistic framing and safe language.
+- `analysis/publish_media_kit/executive_viral_brief.md` - boardroom-ready thesis, hooks, and evidence scope.
+- `analysis/publish_media_kit/editorial_brief.md` - journalistic framing and recommended visual order.
 - `analysis/publish_media_kit/x_thread.md` - draft thread.
 - `analysis/publish_media_kit/linkedin_post.md` - draft LinkedIn post.
 - `analysis/claim_outputs/social_cards/` - SVG claim cards.
@@ -67,24 +67,7 @@ The most useful files for public posting are:
 
 The analysis uses public VivaTech 2026 exhibitor and speaker listings. It normalizes 3,153 company records, 1,133 speaker records, and conservatively matches speaker organizations back to exhibitor organizations.
 
-The matching is intentionally conservative. That makes the claims safer, but it may undercount true links.
-
-## Red Lines
-
-Do not claim:
-
-- that a specific stage slot was sold;
-- that sponsorship caused any individual speaker placement;
-- that startups were excluded from the event;
-- that country rankings are official without further country normalization.
-
-Safe language:
-
-- "public listing data";
-- "matched speaker layer";
-- "speaker visibility";
-- "governance risk";
-- "advertorial feel" as interpretation, not proven intent.
+The matching is intentionally conservative, so it may undercount true organization links. The findings measure public matched-speaker visibility, not private agenda negotiations, internal sponsorship decisions, or official country rankings.
 
 ## Rebuild
 

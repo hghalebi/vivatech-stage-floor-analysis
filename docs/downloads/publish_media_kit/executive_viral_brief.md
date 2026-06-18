@@ -39,15 +39,6 @@ Caveat: This is based on conservative exhibitor-speaker organization matching; u
 - 21.2x: Partners are 21x louder per company than startups. Partners are 13.8% of exhibitors and 77.2% of matched speaker slots. Startups are 86.2% of exhibitors and 22.8% of matched speaker slots.
 - 1 startup: Top billing almost erases startups. Among 20 top-billed speakers that matched exhibitors, 19 map to partners and 1 maps to a startup. Per exhibitor, partner top-billing density is 119.0x startup density.
 
-## Safe Language
+## Evidence Scope
 
-- Say "matched speaker layer", "public listings", and "governance risk".
-- Say "advertorial feel" or "advertising logic" as interpretation, not proven intent.
-- Say "conservative matching may undercount true links".
-
-## Red Lines
-
-- Do not claim a specific stage slot was sold.
-- Do not claim sponsorship causality.
-- Do not claim startups were banned or excluded.
-- Do not use country rankings as official rankings without normalization.
+This is a public-listing analysis of matched speaker visibility. It does not prove a specific stage transaction, sponsorship causality, or exclusion from the event. Country rankings remain directional until country labels are normalized.

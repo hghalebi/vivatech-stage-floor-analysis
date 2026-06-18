@@ -3,59 +3,59 @@ rank,headline,metric,evidence,caveat,card_file,primary_source_file,metrics_sourc
 
 Partners are 13.8% of exhibitors and 77.2% of matched speaker slots. Startups are 86.2% of exhibitors and 22.8% of matched speaker slots.
 
-Important caveat: This is based on conservative exhibitor-speaker organization matching; unmatched speakers are excluded."
+Evidence note: This is based on conservative exhibitor-speaker organization matching; unmatched speakers are excluded."
 2,Top billing almost erases startups.,1 startup,"Among 20 top-billed speakers that matched exhibitors, 19 map to partners and 1 maps to a startup. Per exhibitor, partner top-billing density is 119.0x startup density.",This only counts top speakers that match exhibitor organizations; celebrity and government speakers often do not match exhibitors.,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_02.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,1 startup | Top billing almost erases startups. Only one top-billed matched speaker maps to a startup exhibitor.,"Top billing almost erases startups.
 
 Among 20 top-billed speakers that matched exhibitors, 19 map to partners and 1 maps to a startup. Per exhibitor, partner top-billing density is 119.0x startup density.
 
-Important caveat: This only counts top speakers that match exhibitor organizations; celebrity and government speakers often do not match exhibitors."
+Evidence note: This only counts top speakers that match exhibitor organizations; celebrity and government speakers often do not match exhibitors."
 3,Top speakers are twice as likely to be tagless.,57.4%,"57.4% of top speakers have no speaker tags, compared with 27.8% of non-top speakers.","A missing tag is a listing-data signal, not proof that the speaker lacks a topic.",/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_03.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,57.4% | Top speakers are twice as likely to be tagless. The highest-status speaker layer is less classified by topic than ordinary speakers.,"Top speakers are twice as likely to be tagless.
 
 57.4% of top speakers have no speaker tags, compared with 27.8% of non-top speakers.
 
-Important caveat: A missing tag is a listing-data signal, not proof that the speaker lacks a topic."
+Evidence note: A missing tag is a listing-data signal, not proof that the speaker lacks a topic."
 4,Tech for Change is under-amplified.,4.0x gap,"Tech for Change has 424 exhibitors but 13 matched speakers: 3.1 per 100 companies. Unlabeled exhibitors have 12.5 per 100, about 4.0x higher.","The label may identify a curated floor program rather than a stage program; still, the attention gap is real in the listing data.",/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_04.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"4.0x gap | Tech for Change is under-amplified. The moral label shows up on the floor, but weakly converts into matched speakers.","Tech for Change is under-amplified.
 
 Tech for Change has 424 exhibitors but 13 matched speakers: 3.1 per 100 companies. Unlabeled exhibitors have 12.5 per 100, about 4.0x higher.
 
-Important caveat: The label may identify a curated floor program rather than a stage program; still, the attention gap is real in the listing data."
+Evidence note: The label may identify a curated floor program rather than a stage program; still, the attention gap is real in the listing data."
 5,"The floor is concentrated in one hall, but attention is still scarce.",6.3%,"Pavillon 7 contains 2517 exhibitors (79.8% of all companies), yet only 159 of those companies have a matched speaker (6.3%).",Hall values are listing fields; 636 companies have no hall value in the payload.,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_05.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"6.3% | The floor is concentrated in one hall, but attention is still scarce. Booth geography does not explain the microphone gap.","The floor is concentrated in one hall, but attention is still scarce.
 
 Pavillon 7 contains 2517 exhibitors (79.8% of all companies), yet only 159 of those companies have a matched speaker (6.3%).
 
-Important caveat: Hall values are listing fields; 636 companies have no hall value in the payload."
+Evidence note: Hall values are listing fields; 636 companies have no hall value in the payload."
 6,Retail is the booth economy with almost no speaker narrative.,337 vs 6,"Retail & E-commerce has 337 tagged exhibitors (10.7%) but only 6 tagged speakers (0.5%), a -10.2 point under-index.","Tags are multi-select listing categories, not exclusive sectors.",/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_06.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,337 vs 6 | Retail is the booth economy with almost no speaker narrative. A commercially visible category is nearly absent from the speaker tag layer.,"Retail is the booth economy with almost no speaker narrative.
 
 Retail & E-commerce has 337 tagged exhibitors (10.7%) but only 6 tagged speakers (0.5%), a -10.2 point under-index.
 
-Important caveat: Tags are multi-select listing categories, not exclusive sectors."
+Evidence note: Tags are multi-select listing categories, not exclusive sectors."
 7,AI is not the story. AI is the wallpaper.,48.0%,AI/Robotics appears on 1513 exhibitors (48.0%) and 528 speakers (46.6%).,"The AI tag measures listing taxonomy, not product quality or real AI depth.",/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_07.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"48.0% | AI is not the story. AI is the wallpaper. When nearly half the event is tagged AI, the sharper story is who gets amplified inside AI.","AI is not the story. AI is the wallpaper.
 
 AI/Robotics appears on 1513 exhibitors (48.0%) and 528 speakers (46.6%).
 
-Important caveat: The AI tag measures listing taxonomy, not product quality or real AI depth."
+Evidence note: The AI tag measures listing taxonomy, not product quality or real AI depth."
 8,The US punches far above its booth count.,27.4x,The US has 73 exhibitors and 68 matched speakers (93.2 per 100 companies). India has 88 exhibitors and 3 matched speakers (3.4 per 100).,Country labels come from exhibitor records and need normalization before official rankings.,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_08.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,27.4x | The US punches far above its booth count. Booths and agenda leverage tell different geopolitical stories.,"The US punches far above its booth count.
 
 The US has 73 exhibitors and 68 matched speakers (93.2 per 100 companies). India has 88 exhibitors and 3 matched speakers (3.4 per 100).
 
-Important caveat: Country labels come from exhibitor records and need normalization before official rankings."
+Evidence note: Country labels come from exhibitor records and need normalization before official rankings."
 9,Korea has booth mass but almost no matched microphone.,1.3,"South Korea plus `korearepublicof` totals 153 exhibitor records but only 2 matched speakers, or 1.3 per 100 companies.",This claim depends on normalizing the raw country split and may undercount unmatched speaker organizations.,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_09.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"1.3 | Korea has booth mass but almost no matched microphone. After fixing the split country label, Korea remains almost silent in matched speaker density.","Korea has booth mass but almost no matched microphone.
 
 South Korea plus `korearepublicof` totals 153 exhibitor records but only 2 matched speakers, or 1.3 per 100 companies.
 
-Important caveat: This claim depends on normalizing the raw country split and may undercount unmatched speaker organizations."
+Evidence note: This claim depends on normalizing the raw country split and may undercount unmatched speaker organizations."
 10,Funding maturity buys microphone odds.,8.0x,"Series C exhibitors show 16.7 matched speakers per 100 companies, versus 2.1 for bootstrapped companies.","Series C has only 24 companies, so this is a directional signal rather than a causal proof.",/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_10.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"8.0x | Funding maturity buys microphone odds. The event celebrates early startups, but later-stage companies get much better matched speaker density.","Funding maturity buys microphone odds.
 
 Series C exhibitors show 16.7 matched speakers per 100 companies, versus 2.1 for bootstrapped companies.
 
-Important caveat: Series C has only 24 companies, so this is a directional signal rather than a causal proof."
+Evidence note: Series C has only 24 companies, so this is a directional signal rather than a causal proof."
 11,The public exhibitor list is not built for understanding companies.,100%,3153 of 3153 exhibitor short descriptions are empty (100.0%).,Detail pages may contain richer information; this claim is scoped to the bulk listing payload.,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_11.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"100% | The public exhibitor list is not built for understanding companies. It is a sorting layer, not a discovery layer.","The public exhibitor list is not built for understanding companies.
 
 3153 of 3153 exhibitor short descriptions are empty (100.0%).
 
-Important caveat: Detail pages may contain richer information; this claim is scoped to the bulk listing payload."
+Evidence note: Detail pages may contain richer information; this claim is scoped to the bulk listing payload."
 12,The same normalized company names repeat across the floor.,40 names,40 normalized company names appear more than once; examples include alice bob and h.,Some repeats are legitimate multi-booth or naming collisions; do not dedupe without manual review.,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards/card_12.svg,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv,/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_metrics.json,"40 names | The same normalized company names repeat across the floor. Even before external enrichment, identity resolution is a real analytical problem.","The same normalized company names repeat across the floor.
 
 40 normalized company names appear more than once; examples include alice bob and h.
 
-Important caveat: Some repeats are legitimate multi-booth or naming collisions; do not dedupe without manual review."
+Evidence note: Some repeats are legitimate multi-booth or naming collisions; do not dedupe without manual review."

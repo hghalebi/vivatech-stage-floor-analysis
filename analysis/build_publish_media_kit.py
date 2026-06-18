@@ -30,7 +30,7 @@ def short_post(claim: dict[str, str]) -> str:
     headline = claim["headline"].rstrip(".")
     evidence = claim["evidence"].rstrip(".")
     caveat = claim["caveat"].rstrip(".")
-    return f"{headline}.\n\n{evidence}.\n\nImportant caveat: {caveat}."
+    return f"{headline}.\n\n{evidence}.\n\nEvidence note: {caveat}."
 
 
 def punchy_caption(claim: dict[str, str]) -> str:
@@ -50,7 +50,7 @@ def thread(posts: list[str]) -> str:
         body = post.replace("\n\n", " ")
         lines.append(f"{idx}/ {body}")
         lines.append("")
-    lines.append("Final caveat: these are public-listing signals, not internal sponsorship or curation data. The strongest claim is structural: the floor is startup-heavy, but the matched microphone layer is partner-heavy.")
+    lines.append("Method note: these are public-listing signals, not internal sponsorship or curation data. The strongest claim is structural: the floor is startup-heavy, but the matched microphone layer is partner-heavy.")
     return "\n".join(lines)
 
 
@@ -82,7 +82,7 @@ The media version:
 
 **VivaTech risks reading like the conference equivalent of a magazine filled with advertorial reportage.**
 
-Important caveat: this is public listing analysis, not internal sponsorship data. It measures visibility in the public speaker/exhibitor data, not causality.
+Method note: this is public listing analysis, not internal sponsorship data. It measures visibility in the public speaker/exhibitor data, not causality.
 """
 
 
@@ -110,20 +110,9 @@ The claim cuts against the default conference narrative. Instead of asking which
 
 In media terms, the edge is that VivaTech can read like the conference equivalent of a magazine filled with advertorial reportage: the editorial surface is hard to separate from the commercial visibility machine.
 
-## Safe Language
+## Evidence Scope
 
-- Use "matched speaker slots", not "all speaker influence".
-- Use "public listing data", not "internal agenda decisions".
-- Use "speaker density" or "matched microphone layer", not "power" unless clearly framed as metaphor.
-- Say "conservative matching likely undercounts true links".
-- Treat country rankings as directional until country labels are normalized.
-
-## Claims To Avoid
-
-- Do not say partners bought the stage; sponsorship causality is not proven.
-- Do not say startups were excluded; only public matched-speaker visibility is measured.
-- Do not say AI is fake; the data only shows AI-tag saturation.
-- Do not use the web-search enrichment as evidence for all entities; it is partial and blocked.
+The analysis measures public matched-speaker visibility, not internal agenda decisions or sponsorship causality. Conservative matching likely undercounts true organization links. Country rankings remain directional until country labels are normalized, and web-search enrichment is partial.
 
 ## Recommended Visual Order
 
@@ -180,18 +169,9 @@ Caveat: {primary['caveat']}
 - {primary['metric']}: {primary['headline']} {primary['evidence']}
 - {top_billing['metric']}: {top_billing['headline']} {top_billing['evidence']}
 
-## Safe Language
+## Evidence Scope
 
-- Say "matched speaker layer", "public listings", and "governance risk".
-- Say "advertorial feel" or "advertising logic" as interpretation, not proven intent.
-- Say "conservative matching may undercount true links".
-
-## Red Lines
-
-- Do not claim a specific stage slot was sold.
-- Do not claim sponsorship causality.
-- Do not claim startups were banned or excluded.
-- Do not use country rankings as official rankings without normalization.
+This is a public-listing analysis of matched speaker visibility. It does not prove a specific stage transaction, sponsorship causality, or exclusion from the event. Country rankings remain directional until country labels are normalized.
 """
 
 
@@ -300,8 +280,8 @@ def main() -> None:
         "- `claim_evidence_map.csv`: every hook mapped to evidence, caveat, and card file.\n"
         "- `x_thread.md`: thread draft.\n"
         "- `linkedin_post.md`: longer post draft.\n"
-        "- `editorial_brief.md`: thesis, red lines, and recommended visual order.\n"
-        "- `executive_viral_brief.md`: boardroom-ready thesis, post hooks, and red lines.\n"
+        "- `editorial_brief.md`: thesis, evidence scope, and recommended visual order.\n"
+        "- `executive_viral_brief.md`: boardroom-ready thesis, post hooks, and evidence scope.\n"
         "- `publish_index.html`: browsable kit with cards and copy blocks.\n\n"
         f"Source counts: {metrics['company_count']} companies, {metrics['speaker_count']} speakers, {metrics['matched_speakers']} matched speakers.\n",
         encoding="utf-8",

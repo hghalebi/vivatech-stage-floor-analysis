@@ -119,7 +119,7 @@ function initExecutiveBrief() {
       <em>${esc(item.soWhat)}</em>
     </article>
   `).join("");
-  $("executiveQuestion").textContent = brief.messageHouse.executiveQuestion;
+  $("executiveQuestion").textContent = brief.executiveQuestion;
   $("boardroomMoves").innerHTML = brief.boardroomMoves.map((move, index) => `
     <div class="move-item"><strong>${index + 1}</strong><span>${esc(move)}</span></div>
   `).join("");
@@ -152,17 +152,6 @@ function renderQuoteKit() {
       <button class="primary-link copy-button" type="button" data-copy="${esc(quoteText(quote))}">Copy line</button>
     </article>
   `).join("");
-  const rules = data.executiveBrief.messageHouse;
-  $("languageRules").innerHTML = `
-    <article>
-      <h3>Safe to say</h3>
-      <ul>${rules.safeToSay.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-    </article>
-    <article>
-      <h3>Do not say</h3>
-      <ul>${rules.doNotSay.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-    </article>
-  `;
 }
 
 function initClaimTopics() {
@@ -944,7 +933,6 @@ function initConclusion() {
   $("conclusionTitle").textContent = recommendation.title;
   $("conclusionThesis").textContent = recommendation.thesis;
   $("businessModel").textContent = recommendation.business_model_change;
-  $("redLine").textContent = recommendation.red_line;
   $("supportGrid").innerHTML = recommendation.support.map((support) => `
     <article class="support-card">
       <h3>${esc(support.pattern)}</h3>
