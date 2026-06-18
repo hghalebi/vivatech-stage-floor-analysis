@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local raw fetch/debug artifacts. The normalized CSVs and public dashboard bundle are committed instead.
+_local/
+raw_html/
+artifact_payload.json
+artifact_render_payload.json
+dynamic_dashboard/
+
+# Raw search-engine result dumps are noisy crawl artifacts; publish normalized summaries instead.
+web_enrichment/web_search_results*.jsonl
+
+# Temporary validation screenshots should be regenerated, not versioned.
+validation_*.png
+../docs/validation_*.png
+
+# Local-only scratch assets.
+vivatech_brand_assets/

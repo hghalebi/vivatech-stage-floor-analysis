@@ -1,0 +1,15 @@
+{
+  "claims": 12,
+  "company_count": 3153,
+  "speaker_count": 1133,
+  "matched_speakers": 355,
+  "outputs": {
+    "directory": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit",
+    "evidence_map": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit/claim_evidence_map.csv",
+    "x_thread": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit/x_thread.md",
+    "linkedin_post": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit/linkedin_post.md",
+    "editorial_brief": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit/editorial_brief.md",
+    "executive_viral_brief": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit/executive_viral_brief.md",
+    "publish_index": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/publish_media_kit/publish_index.html"
+  }
+}
