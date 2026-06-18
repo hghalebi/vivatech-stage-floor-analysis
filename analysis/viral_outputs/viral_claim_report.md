@@ -1,4 +1,4 @@
-# VivaTech Viral/Polemic Pattern Bank
+# VivaTech Viral Pattern Bank
 
 Generated from the normalized VivaTech company and speaker scrape.
 
@@ -23,7 +23,7 @@ Generated from the normalized VivaTech company and speaker scrape.
 - Say "speaker density" rather than "influence" unless you have independent influence evidence.
 - Treat country results as directional until raw country labels are normalized.
 - Avoid fuzzy company matching in viral claims unless a manual review sample is added.
-- The strongest defensible polemic is structural: VivaTech's floor is startup-heavy, but its matched microphone layer is partner-heavy.
+- The strongest defensible reading is structural: VivaTech's floor is startup-heavy, but its matched microphone layer is partner-heavy.
 
 ## Generated Visuals
 

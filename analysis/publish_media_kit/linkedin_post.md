@@ -6,7 +6,7 @@ The speaker data tells a more uncomfortable story.
 
 I scraped the public VivaTech listings: 3,153 exhibitor companies and 1,133 speaker records. Then I conservatively matched speaker organizations back to exhibitors.
 
-The most provocative patterns:
+The sharpest patterns:
 
 - Partners are 21x louder per company than startups. Partners are 13.8% of exhibitors and 77.2% of matched speaker slots. Startups are 86.2% of exhibitors and 22.8% of matched speaker slots.
 - Top billing almost erases startups. Among 20 top-billed speakers that matched exhibitors, 19 map to partners and 1 maps to a startup. Per exhibitor, partner top-billing density is 119.0x startup density.

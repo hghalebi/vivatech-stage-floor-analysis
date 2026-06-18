@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a social-ready polemic insight pack from VivaTech normalized CSVs."""
+"""Create a social-ready sharp insight pack from VivaTech normalized CSVs."""
 
 from __future__ import annotations
 
@@ -16,14 +16,14 @@ from pathlib import Path
 
 
 BASE = Path(__file__).resolve().parent
-OUT = BASE / "polemic_outputs"
+OUT = BASE / "claim_outputs"
 CARDS = OUT / "social_cards"
 OUT.mkdir(exist_ok=True)
 CARDS.mkdir(exist_ok=True)
 
 
 @dataclass(frozen=True)
-class PolemicClaim:
+class EvidenceClaim:
     rank: int
     headline: str
     punchline: str
@@ -70,7 +70,7 @@ def svg_text_block(lines: list[str], x: int, y: int, size: int, weight: int, fil
     return nodes
 
 
-def draw_social_card(claim: PolemicClaim) -> str:
+def draw_social_card(claim: EvidenceClaim) -> str:
     width = 1080
     height = 1350
     palette = [
@@ -115,13 +115,17 @@ def write_rows(path: Path, rows: list[dict[str, object]], fields: list[str]) -> 
         writer.writerows(rows)
 
 
-def build_html_deck(claims: list[PolemicClaim], metrics: dict[str, object]) -> str:
+def clean_generated_text(value: str) -> str:
+    return "\n".join(line.rstrip() for line in value.splitlines()) + "\n"
+
+
+def build_html_deck(claims: list[EvidenceClaim], metrics: dict[str, object]) -> str:
     cards = []
     for claim in claims:
         cards.append(
             f"""
             <section class="card-row">
-              <img src="polemic_outputs/social_cards/{clean_svg(claim.card_file)}" alt="{clean_svg(claim.headline)}" />
+              <img src="claim_outputs/social_cards/{clean_svg(claim.card_file)}" alt="{clean_svg(claim.headline)}" />
               <div>
                 <p class="rank">Card {claim.rank:02d}</p>
                 <h2>{clean_svg(claim.headline)}</h2>
@@ -132,12 +136,12 @@ def build_html_deck(claims: list[PolemicClaim], metrics: dict[str, object]) -> s
             </section>
             """
         )
-    return f"""<!doctype html>
+    html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>VivaTech Polemic Social Pack</title>
+  <title>VivaTech Claim Card Pack</title>
   <style>
     body {{
       margin: 0;
@@ -182,7 +186,7 @@ def build_html_deck(claims: list[PolemicClaim], metrics: dict[str, object]) -> s
 <body>
 <main>
   <h1>VivaTech's viral story is not AI. It is who gets the microphone.</h1>
-  <p class="lede">These are social-ready, polemic-but-defensible claim cards. Each claim uses the public company and speaker listing scrape, and each includes the caveat needed to avoid overclaiming.</p>
+  <p class="lede">These are social-ready, sharp-but-defensible claim cards. Each claim uses the public company and speaker listing scrape, and each includes the caveat needed to avoid overclaiming.</p>
   <section class="metrics">
     <div class="metric"><strong>{metrics["company_count"]:,}</strong><span>companies</span></div>
     <div class="metric"><strong>{metrics["speaker_count"]:,}</strong><span>speakers</span></div>
@@ -194,6 +198,7 @@ def build_html_deck(claims: list[PolemicClaim], metrics: dict[str, object]) -> s
 </body>
 </html>
 """
+    return clean_generated_text(html_doc)
 
 
 def main() -> None:
@@ -275,7 +280,7 @@ def main() -> None:
     for normalized_name, count in normalized_counts.most_common(40):
         if count <= 1:
             break
-        names = sorted({row["name"] for row in companies if row["normalized_name"] == normalized_name})
+        names = sorted({row["name"].strip() for row in companies if row["normalized_name"] == normalized_name})
         duplicate_name_rows.append({"normalized_name": normalized_name, "company_rows": count, "display_names": " | ".join(names[:8])})
     write_rows(OUT / "duplicate_company_names.csv", duplicate_name_rows, ["normalized_name", "company_rows", "display_names"])
 
@@ -418,14 +423,14 @@ def main() -> None:
         ),
     ]
 
-    claims: list[PolemicClaim] = []
+    claims: list[EvidenceClaim] = []
     for rank, raw in enumerate(preliminary_claims, start=1):
-        claim = PolemicClaim(rank, *raw, card_file="")
+        claim = EvidenceClaim(rank, *raw, card_file="")
         card = draw_social_card(claim)
-        claims.append(PolemicClaim(rank, claim.headline, claim.punchline, claim.evidence, claim.caveat, claim.metric, claim.controversy, claim.defensibility, card))
+        claims.append(EvidenceClaim(rank, claim.headline, claim.punchline, claim.evidence, claim.caveat, claim.metric, claim.controversy, claim.defensibility, card))
 
     claim_rows = [claim.__dict__ for claim in claims]
-    write_rows(OUT / "polemic_claims.csv", claim_rows, list(claim_rows[0].keys()))
+    write_rows(OUT / "claim_bank.csv", claim_rows, list(claim_rows[0].keys()))
 
     metrics = {
         "company_count": company_count,
@@ -442,21 +447,21 @@ def main() -> None:
         "korea_combined_matched_speakers": korea_total_speakers,
         "korea_combined_density_per_100": korea_density,
         "outputs": {
-            "claims": str(OUT / "polemic_claims.csv"),
-            "deck": str(BASE / "polemic_social_deck.html"),
+            "claims": str(OUT / "claim_bank.csv"),
+            "deck": str(BASE / "claim_social_deck.html"),
             "cards_dir": str(CARDS),
         },
     }
-    (OUT / "polemic_metrics.json").write_text(json.dumps(metrics, indent=2, ensure_ascii=False), encoding="utf-8")
+    (OUT / "claim_metrics.json").write_text(json.dumps(metrics, indent=2, ensure_ascii=False), encoding="utf-8")
     (OUT / "README.md").write_text(
-        "# VivaTech Polemic Outputs\n\n"
+        "# VivaTech Claim Outputs\n\n"
         "This folder contains second-stage, social-ready VivaTech claims and visuals generated from the normalized company and speaker CSVs.\n\n"
-        "- `polemic_claims.csv`: ranked claim bank with evidence and caveats.\n"
+        "- `claim_bank.csv`: ranked claim bank with evidence and caveats.\n"
         "- `social_cards/`: 1080x1350 SVG cards for sharing or screenshotting.\n"
         "- `hall_attention.csv`, `label_attention.csv`, `top_tag_pairs.csv`, `duplicate_company_names.csv`: supporting derived tables.\n",
         encoding="utf-8",
     )
-    (BASE / "polemic_social_deck.html").write_text(build_html_deck(claims, metrics), encoding="utf-8")
+    (BASE / "claim_social_deck.html").write_text(build_html_deck(claims, metrics), encoding="utf-8")
     print(json.dumps(metrics, indent=2, ensure_ascii=False))
 
 

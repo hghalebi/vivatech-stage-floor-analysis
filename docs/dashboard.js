@@ -211,8 +211,8 @@ function renderClaimDetail(claim) {
     <p><strong>${esc(claim.punchline)}</strong></p>
     <p>${esc(claim.evidence)}</p>
     <p><strong>Caveat:</strong> ${esc(claim.caveat)}</p>
-    <img src="downloads/polemic_outputs/social_cards/${esc(claim.card_file)}" alt="${esc(claim.headline)}" />
-    <a class="primary-link" href="downloads/polemic_outputs/social_cards/${esc(claim.card_file)}" download>Download card</a>
+    <img src="downloads/claim_outputs/social_cards/${esc(claim.card_file)}" alt="${esc(claim.headline)}" />
+    <a class="primary-link" href="downloads/claim_outputs/social_cards/${esc(claim.card_file)}" download>Download card</a>
   `;
 }
 
@@ -459,7 +459,7 @@ function renderTechForChangeChart() {
     label: row.label === "<blank>" ? "No Tech for Change label" : row.label,
     value: num(row[metric.key]),
     meta: `${fmt(row.companies)} companies / ${fmt(row.matched_speakers)} matched speakers.`,
-    source: "polemic_outputs/label_attention.csv",
+    source: "claim_outputs/label_attention.csv",
   }));
   return renderBarChart({
     title: "Tech for Change gap",
@@ -467,7 +467,7 @@ function renderTechForChangeChart() {
     rows,
     unit: metric.unit,
     decimals: metric.decimals,
-    source: "polemic_outputs/label_attention.csv",
+    source: "claim_outputs/label_attention.csv",
   });
 }
 
@@ -646,7 +646,7 @@ function renderHeatmap() {
     left: row.left_tag,
     right: row.right_tag,
     meta: `${fmt(row.company_count)} companies share both tags.`,
-    source: "polemic_outputs/top_tag_pairs.csv",
+    source: "claim_outputs/top_tag_pairs.csv",
   })), "value");
   const tags = Array.from(new Set(visiblePairs.flatMap((row) => [row.left, row.right]))).slice(0, 12);
   const valueByPair = new Map();

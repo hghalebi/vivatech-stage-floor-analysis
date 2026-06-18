@@ -16,7 +16,7 @@ Generated: 2026-06-17T20:54:32+00:00
 - Local CSVs in `/Users/hamzeghalebi/Documents/vivatech` were present by `stat`, but reads failed with `Operation not permitted`, so this report uses a fresh live scrape.
 - Company/speaker matching uses exact normalized names plus safe unambiguous aliases from parentheticals, acronyms, `by` tails, and partner prefixes. It is still conservative and may undercount.
 
-## Provocative Patterns
+## Sharp Patterns
 
 |pattern|evidence|why_it_matters|severity|
 |---|---|---|---|

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a publish-ready media kit from the VivaTech polemic claim bank."""
+"""Build a publish-ready media kit from the VivaTech claim bank."""
 
 from __future__ import annotations
 
@@ -66,7 +66,7 @@ The speaker data tells a more uncomfortable story.
 
 I scraped the public VivaTech listings: 3,153 exhibitor companies and 1,133 speaker records. Then I conservatively matched speaker organizations back to exhibitors.
 
-The most provocative patterns:
+The sharpest patterns:
 
 {bullets}
 
@@ -104,11 +104,11 @@ The harder story is that startups can become the background cast for big-company
 
 Evidence: {strongest['evidence']}
 
-## Why This Is Polemic
+## Why This Hits
 
 The claim cuts against the default conference narrative. Instead of asking which AI startups are hot, it asks who actually gets agenda visibility. That is more politically charged because it touches status, sponsorship-adjacent dynamics, geography, and founder access.
 
-In media terms, the provocation is that VivaTech can read like the conference equivalent of a magazine filled with advertorial reportage: the editorial surface is hard to separate from the commercial visibility machine.
+In media terms, the edge is that VivaTech can read like the conference equivalent of a magazine filled with advertorial reportage: the editorial surface is hard to separate from the commercial visibility machine.
 
 ## Safe Language
 
@@ -201,7 +201,7 @@ def html_index(claims: list[dict[str, str]]) -> str:
         rows.append(
             f"""
             <section>
-              <img src="../polemic_outputs/social_cards/{claim['card_file']}" alt="{claim['headline']}" />
+              <img src="../claim_outputs/social_cards/{claim['card_file']}" alt="{claim['headline']}" />
               <div>
                 <h2>{claim['headline']}</h2>
                 <p class="metric">{claim['metric']}</p>
@@ -246,15 +246,15 @@ def html_index(claims: list[dict[str, str]]) -> str:
 
 
 def main() -> None:
-    claim_path = BASE / "polemic_outputs" / "polemic_claims.csv"
-    metrics_path = BASE / "polemic_outputs" / "polemic_metrics.json"
+    claim_path = BASE / "claim_outputs" / "claim_bank.csv"
+    metrics_path = BASE / "claim_outputs" / "claim_metrics.json"
     claims = read_csv(claim_path)
     metrics = json.loads(metrics_path.read_text(encoding="utf-8"))
     assert len(claims) == 12, len(claims)
 
     evidence_rows = []
     for claim in claims:
-        card_path = BASE / "polemic_outputs" / "social_cards" / claim["card_file"]
+        card_path = BASE / "claim_outputs" / "social_cards" / claim["card_file"]
         assert card_path.exists(), card_path
         evidence_rows.append(
             {
@@ -296,7 +296,7 @@ def main() -> None:
     (OUT / "publish_index.html").write_text(html_index(claims), encoding="utf-8")
     (OUT / "README.md").write_text(
         "# VivaTech Publish Media Kit\n\n"
-        "This folder turns the validated polemic claim bank into copy-ready publishing assets.\n\n"
+        "This folder turns the validated claim bank into copy-ready publishing assets.\n\n"
         "- `claim_evidence_map.csv`: every hook mapped to evidence, caveat, and card file.\n"
         "- `x_thread.md`: thread draft.\n"
         "- `linkedin_post.md`: longer post draft.\n"

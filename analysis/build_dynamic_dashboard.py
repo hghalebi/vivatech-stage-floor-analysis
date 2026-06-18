@@ -34,22 +34,22 @@ DERIVED_CSVS = [
     "coverage_by_type.csv",
     "data_quality_missingness.csv",
     "fundraising_distribution.csv",
-    "provocative_patterns.csv",
+    "sharp_patterns.csv",
     "role_buckets.csv",
     "speaker_company_leaders.csv",
     "tag_comparison.csv",
-    "polemic_outputs/polemic_claims.csv",
-    "polemic_outputs/hall_attention.csv",
-    "polemic_outputs/label_attention.csv",
-    "polemic_outputs/top_tag_pairs.csv",
-    "polemic_outputs/duplicate_company_names.csv",
+    "claim_outputs/claim_bank.csv",
+    "claim_outputs/hall_attention.csv",
+    "claim_outputs/label_attention.csv",
+    "claim_outputs/top_tag_pairs.csv",
+    "claim_outputs/duplicate_company_names.csv",
     "more_visualizations/visualization_manifest.csv",
     "publish_media_kit/claim_evidence_map.csv",
 ]
 
 JSON_FILES = [
     "summary_metrics.json",
-    "polemic_outputs/polemic_metrics.json",
+    "claim_outputs/claim_metrics.json",
     "more_visualizations/more_visualization_metrics.json",
     "publish_media_kit/media_kit_summary.json",
     "web_enrichment/web_search_summary_official.json",
@@ -58,7 +58,7 @@ JSON_FILES = [
 HTML_REPORTS = [
     "vivatech_insights_report.md",
     "viral_visual_report.html",
-    "polemic_social_deck.html",
+    "claim_social_deck.html",
     "more_visualizations/more_visualizations_gallery.html",
     "publish_media_kit/publish_index.html",
     "publish_media_kit/editorial_brief.md",
@@ -101,7 +101,7 @@ def dashboard_data() -> dict[str, object]:
     companies = read_csv(BASE / "companies_normalized.csv")
     speakers = read_csv(BASE / "speakers_normalized.csv")
     matches = read_csv(BASE / "speaker_company_matches.csv")
-    claims = read_csv(BASE / "polemic_outputs/polemic_claims.csv")
+    claims = read_csv(BASE / "claim_outputs/claim_bank.csv")
     countries = read_csv(BASE / "country_tension.csv")
     tags = read_csv(BASE / "tag_comparison.csv")
     funding = read_csv(BASE / "fundraising_distribution.csv")
@@ -109,17 +109,17 @@ def dashboard_data() -> dict[str, object]:
     missingness = read_csv(BASE / "data_quality_missingness.csv")
     coverage = read_csv(BASE / "company_speaker_coverage.csv")
     leaders = read_csv(BASE / "speaker_company_leaders.csv")
-    tag_pairs = read_csv(BASE / "polemic_outputs/top_tag_pairs.csv")
+    tag_pairs = read_csv(BASE / "claim_outputs/top_tag_pairs.csv")
     visual_manifest = read_csv(BASE / "more_visualizations/visualization_manifest.csv")
     metrics = json.loads((BASE / "summary_metrics.json").read_text(encoding="utf-8"))
-    polemic_metrics = json.loads((BASE / "polemic_outputs/polemic_metrics.json").read_text(encoding="utf-8"))
+    claim_metrics = json.loads((BASE / "claim_outputs/claim_metrics.json").read_text(encoding="utf-8"))
     more_metrics = json.loads((BASE / "more_visualizations/more_visualization_metrics.json").read_text(encoding="utf-8"))
 
     type_counts = Counter(row["type"] for row in companies)
     matched_type = Counter(row["company_type"] for row in matches if row["matched"] == "True")
     top_matched_type = Counter(row["company_type"] for row in matches if row["matched"] == "True" and row["top_speaker"] == "True")
-    tech_label = read_csv(BASE / "polemic_outputs/label_attention.csv")
-    hall_attention = read_csv(BASE / "polemic_outputs/hall_attention.csv")
+    tech_label = read_csv(BASE / "claim_outputs/label_attention.csv")
+    hall_attention = read_csv(BASE / "claim_outputs/hall_attention.csv")
 
     executive_brief = {
         "thesis": "The floor is startups. The microphone is partners.",
@@ -143,7 +143,7 @@ def dashboard_data() -> dict[str, object]:
             {
                 "label": "What the microphone says",
                 "headline": "The matched stage layer is overwhelmingly partners.",
-                "metric": f"{polemic_metrics['partner_loudness_multiplier']:.1f}x louder",
+                "metric": f"{claim_metrics['partner_loudness_multiplier']:.1f}x louder",
                 "evidence": "Partners are 13.8% of exhibitors and 77.2% of matched speaker slots.",
                 "soWhat": "For executives and media, this is the governance tension: the public narrative does not mirror the floor.",
             },
@@ -194,14 +194,14 @@ def dashboard_data() -> dict[str, object]:
             },
             {
                 "audience": "founders",
-                "tone": "provocation",
+                "tone": "sharp",
                 "hook": "At VivaTech, startups risk becoming the background cast for big-company marketing campaigns.",
                 "proof": "Startups are 86.2% of exhibitors but 22.8% of matched speaker slots; partners are 13.8% of exhibitors but 77.2% of matched speaker slots.",
                 "caveat": "This is a structural visibility critique, not proof of internal marketing intent.",
             },
             {
                 "audience": "founders",
-                "tone": "provocation",
+                "tone": "sharp",
                 "hook": "The booth is where startups pay attention. The stage is where institutions receive it.",
                 "proof": "Among 20 top-billed speakers matched to exhibitors, 19 map to partners and 1 maps to a startup.",
                 "caveat": "This excludes top speakers that do not match exhibitor organizations.",
@@ -217,7 +217,7 @@ def dashboard_data() -> dict[str, object]:
         "messageHouse": {
             "safeToSay": [
                 "Public listing data shows a partner-heavy matched speaker layer.",
-                "A defensible polemic is that startups supply the event's atmosphere while partners capture disproportionate matched microphone visibility.",
+                "A defensible reading is that startups supply the event's atmosphere while partners capture disproportionate matched microphone visibility.",
                 "The strongest critique is governance and perception, not proven pay-for-stage causality.",
                 "An editorial board would make the stage more credible without eliminating sponsorship.",
             ],
@@ -279,7 +279,7 @@ def dashboard_data() -> dict[str, object]:
         "title": "Conclusion: treat the stage like editorial, not ad inventory",
         "thesis": (
             "The data does not prove that VivaTech sells stage slots to sponsors. "
-            "But it strongly supports a more cautious and provocative critique: the public program behaves like a journal whose reportage is heavily surrounded by advertising logic. "
+            "But it strongly supports a sharper critique: the public program behaves like a journal whose reportage is heavily surrounded by advertising logic. "
             "Put more bluntly, VivaTech risks reading like the conference version of a magazine whose pages are filled with advertorial reportage: startups create the texture of the issue while partner-class organizations dominate the bylines and covers. "
             "In media terms, the risk is that the stage reads less like independent editorial coverage and more like advertorial programming unless governance changes. "
             "If the stage is selected by partnership-development incentives, the output will naturally over-amplify partners and under-amplify the long-tail floor. "
@@ -297,7 +297,7 @@ def dashboard_data() -> dict[str, object]:
     return {
         "generatedAt": "2026-06-17T21:45:00+00:00",
         "metrics": metrics,
-        "polemicMetrics": polemic_metrics,
+        "claimMetrics": claim_metrics,
         "moreVisualizationMetrics": more_metrics,
         "executiveBrief": executive_brief,
         "recommendation": recommendation,
@@ -378,7 +378,7 @@ def build_downloads() -> list[dict[str, str]]:
     for rel in HTML_REPORTS:
         items.append({"group": "Reports and copy", "label": rel, "href": copy_file(rel)})
 
-    for folder in ["viral_outputs", "polemic_outputs", "more_visualizations", "publish_media_kit"]:
+    for folder in ["viral_outputs", "claim_outputs", "more_visualizations", "publish_media_kit"]:
         src = BASE / folder
         dest = DOWNLOADS / folder
         if dest.exists():
@@ -409,7 +409,7 @@ def index_html() -> str:
     <div>
       <p class="eyebrow">VivaTech 2026 public listing analysis</p>
       <h1>Is the stage editorial, or advertorial?</h1>
-      <p class="lede">A dynamic evidence dashboard for the provocative claim that VivaTech's floor is startup-heavy while its public matched-speaker layer is partner-heavy.</p>
+      <p class="lede">A dynamic evidence dashboard for the sharp claim that VivaTech's floor is startup-heavy while its public matched-speaker layer is partner-heavy.</p>
     </div>
     <nav>
       <a href="#claims">Claims</a>
@@ -433,7 +433,7 @@ def index_html() -> str:
       <div class="section-head">
         <div>
           <p class="eyebrow">Interactive claim explorer</p>
-          <h2>Filter the polemic claims</h2>
+          <h2>Filter the sharp claims</h2>
         </div>
         <div class="filters">
           <label>Minimum controversy <input id="controversyFilter" type="range" min="1" max="5" value="1" /></label>
@@ -569,8 +569,8 @@ function renderClaimDetail(c){
     <p><strong>${esc(c.punchline)}</strong></p>
     <p>${esc(c.evidence)}</p>
     <p><strong>Caveat:</strong> ${esc(c.caveat)}</p>
-    <img src="downloads/polemic_outputs/social_cards/${esc(c.card_file)}" alt="${esc(c.headline)}" />
-    <a class="primary-link" href="downloads/polemic_outputs/social_cards/${esc(c.card_file)}" download>Download card</a>`;
+    <img src="downloads/claim_outputs/social_cards/${esc(c.card_file)}" alt="${esc(c.headline)}" />
+    <a class="primary-link" href="downloads/claim_outputs/social_cards/${esc(c.card_file)}" download>Download card</a>`;
 }
 
 function svg(width, height, body){ return `<svg viewBox="0 0 ${width} ${height}" role="img">${body}</svg>`; }
@@ -699,7 +699,7 @@ def main() -> None:
 
             Sections:
             - Overview metrics
-            - Interactive polemic claim explorer
+            - Interactive sharp claim explorer
             - Dynamic charts
             - Searchable data tables
             - Download center

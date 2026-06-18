@@ -13,8 +13,8 @@
   "korea_combined_matched_speakers": 2,
   "korea_combined_density_per_100": 1.3071895424836601,
   "outputs": {
-    "claims": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/polemic_outputs/polemic_claims.csv",
-    "deck": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/polemic_social_deck.html",
-    "cards_dir": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/polemic_outputs/social_cards"
+    "claims": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/claim_bank.csv",
+    "deck": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_social_deck.html",
+    "cards_dir": "/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/analysis/claim_outputs/social_cards"
   }
 }

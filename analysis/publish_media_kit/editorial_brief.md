@@ -14,11 +14,11 @@ The event sells a startup floor, but the matched microphone belongs to instituti
 
 Evidence: Partners are 13.8% of exhibitors and 77.2% of matched speaker slots. Startups are 86.2% of exhibitors and 22.8% of matched speaker slots.
 
-## Why This Is Polemic
+## Why This Hits
 
 The claim cuts against the default conference narrative. Instead of asking which AI startups are hot, it asks who actually gets agenda visibility. That is more politically charged because it touches status, sponsorship-adjacent dynamics, geography, and founder access.
 
-In media terms, the provocation is that VivaTech can read like the conference equivalent of a magazine filled with advertorial reportage: the editorial surface is hard to separate from the commercial visibility machine.
+In media terms, the edge is that VivaTech can read like the conference equivalent of a magazine filled with advertorial reportage: the editorial surface is hard to separate from the commercial visibility machine.
 
 ## Safe Language
 

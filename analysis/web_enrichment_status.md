@@ -13,7 +13,7 @@ Status: Partial, not complete for all entities.
 - Generated a checkpointed entity list: `/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_enrichment_entities_official.csv`
 - Generated a resumable search script: `/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/enrich_entities_with_web_search.py`
 - Broad Bing HTML mode saved 71 successful company searches to `/Users/hamzeghalebi/Downloads/vivatech_analysis_20260617/web_enrichment/web_search_results.jsonl`.
-- Viral/polemic report and SVG visuals were generated independently from the validated VivaTech data.
+- Viral claim report and SVG visuals were generated independently from the validated VivaTech data.
 
 ## What Failed Or Is Not Reliable
 

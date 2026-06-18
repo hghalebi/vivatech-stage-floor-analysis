@@ -61,7 +61,7 @@ The most useful files for public posting are:
 - `analysis/publish_media_kit/editorial_brief.md` - journalistic framing and safe language.
 - `analysis/publish_media_kit/x_thread.md` - draft thread.
 - `analysis/publish_media_kit/linkedin_post.md` - draft LinkedIn post.
-- `analysis/polemic_outputs/social_cards/` - SVG claim cards.
+- `analysis/claim_outputs/social_cards/` - SVG claim cards.
 
 ## Source And Method
 

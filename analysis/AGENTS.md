@@ -18,7 +18,7 @@ Maintain a public, static VivaTech 2026 exhibitor/speaker analysis dashboard wit
 - Objects: companies, speakers, speaker-company matches, claims, chart rows, evidence cards, downloadable assets.
 - Morphisms: scrape normalization, conservative matching, aggregation, chart rendering, claim filtering, table search, and bundle packaging.
 - Composition: raw public listings -> normalized data -> derived analysis -> dashboard data bundle -> interactive UI.
-- Invariant: provocative claims must remain linked to evidence and caveats, and must not become unsupported accusations of sponsorship causality.
+- Invariant: sharp claims must remain linked to evidence and caveats, and must not become unsupported accusations of sponsorship causality.
 
 ## Validation Commands
 

@@ -4,7 +4,7 @@ Open `index.html` in a browser. The dashboard is static and uses embedded JSON d
 
 Sections:
 - Overview metrics
-- Interactive polemic claim explorer
+- Interactive sharp claim explorer
 - Dynamic charts
 - Searchable data tables
 - Download center

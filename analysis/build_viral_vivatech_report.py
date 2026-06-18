@@ -250,7 +250,7 @@ def html_report(claims: list[Claim], summary: dict[str, object]) -> str:
             """
         )
 
-    return f"""<!doctype html>
+    html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -406,6 +406,7 @@ def html_report(claims: list[Claim], summary: dict[str, object]) -> str:
 </body>
 </html>
 """
+    return "\n".join(line.rstrip() for line in html_doc.splitlines()) + "\n"
 
 
 def main() -> None:
@@ -811,7 +812,7 @@ def main() -> None:
 
     (OUT / "viral_metrics_summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    report_md = f"""# VivaTech Viral/Polemic Pattern Bank
+    report_md = f"""# VivaTech Viral Pattern Bank
 
 Generated from the normalized VivaTech company and speaker scrape.
 
@@ -825,12 +826,12 @@ Generated from the normalized VivaTech company and speaker scrape.
 - Say "speaker density" rather than "influence" unless you have independent influence evidence.
 - Treat country results as directional until raw country labels are normalized.
 - Avoid fuzzy company matching in viral claims unless a manual review sample is added.
-- The strongest defensible polemic is structural: VivaTech's floor is startup-heavy, but its matched microphone layer is partner-heavy.
+- The strongest defensible reading is structural: VivaTech's floor is startup-heavy, but its matched microphone layer is partner-heavy.
 
 ## Generated Visuals
 
 """ + "\n".join(f"- `{claim.chart_file}` - {claim.short_name}" for claim in claims) + "\n"
-    (OUT / "viral_polemic_report.md").write_text(report_md, encoding="utf-8")
+    (OUT / "viral_claim_report.md").write_text(report_md, encoding="utf-8")
     (BASE / "viral_visual_report.html").write_text(html_report(claims, summary), encoding="utf-8")
 
     print(json.dumps({"ok": True, "out_dir": str(OUT), "html_report": str(BASE / "viral_visual_report.html"), "claims": len(claims), **summary}, indent=2, ensure_ascii=False))

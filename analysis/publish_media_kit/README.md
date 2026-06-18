@@ -1,6 +1,6 @@
 # VivaTech Publish Media Kit
 
-This folder turns the validated polemic claim bank into copy-ready publishing assets.
+This folder turns the validated claim bank into copy-ready publishing assets.
 
 - `claim_evidence_map.csv`: every hook mapped to evidence, caveat, and card file.
 - `x_thread.md`: thread draft.
